@@ -1,0 +1,6547 @@
+Introduction to Python
+Programming
+SENIOR CONTRIBUTING AUTHORS
+UDAYAN DAS, SAINT MARY'S COLLEGE OF CALIFORNIA
+AUBREY LAWSON, WILEY
+CHRIS MAYFIELD, JAMES MADISON UNIVERSITY
+NARGES NOROUZI, UC BERKELEY
+OpenStax
+Rice University
+6100 Main Street MS-375
+Houston, Texas 77005
+To learn more about OpenStax, visit https://openstax.org.
+Individual print copies and bulk orders can be purchased through our website.
+©2024 Rice University. Textbook content produced by OpenStax is licensed under a Creative Commons
+Attribution 4.0 International License (CC BY 4.0). Under this license, any user of this textbook or the textbook
+contents herein must provide proper attribution as follows:
+- If you redistribute this textbook in a digital format (including but not limited to PDF and HTML), then you
+must retain on every page the following attribution:
+“Access for free at openstax.org.”
+- If you redistribute this textbook in a print format, then you must include on every physical page the
+following attribution:
+“Access for free at openstax.org.”
+- If you redistribute part of this textbook, then you must retain in every digital format page view (including
+but not limited to PDF and HTML) and on every physical printed page the following attribution:
+“Access for free at openstax.org.”
+- If you use this textbook as a bibliographic reference, please include
+https://openstax.org/details/books/introduction-python-programming in your citation.
+For questions regarding this licensing, please contact support@openstax.org. This book utilizes the OpenStax
+Python Code Runner. The code runner is developed by Wiley and is All Rights Reserved.
+Trademarks
+The OpenStax name, OpenStax logo, OpenStax book covers, OpenStax CNX name, OpenStax CNX logo,
+OpenStax Tutor name, Openstax Tutor logo, Connexions name, Connexions logo, Rice University name, and
+Rice University logo are not subject to the license and may not be reproduced without the prior and express
+written consent of Rice University.
+DIGITAL VERSION ISBN-13 978-1-961584-45-7
+ORIGINAL PUBLICATION YEAR 2024
+1 2 3 4 5 6 7 8 9 10 CJP 24
+OPENSTAX
+OpenStax provides free, peer-reviewed, openly licensed textbooks for introductory college and Advanced
+Placement® courses and low-cost, personalized courseware that helps students learn. A nonprofit ed tech
+initiative based at Rice University, we’re committed to helping students access the tools they need to complete
+their courses and meet their educational goals.
+RICE UNIVERSITY
+OpenStax is an initiative of Rice University. As a leading research university with a distinctive commitment to
+undergraduate education, Rice University aspires to path-breaking research, unsurpassed teaching, and
+contributions to the betterment of our world. It seeks to fulfill this mission by cultivating a diverse community
+of learning and discovery that produces leaders across the spectrum of human endeavor.
+PHILANTHROPIC SUPPORT
+OpenStax is grateful for the generous philanthropic partners who advance our mission to improve educational
+access and learning for everyone. To see the impact of our supporter community and our most updated list of
+partners, please visit openstax.org/foundation.
+Arnold Ventures Burt and Deedee McMurtry
+Chan Zuckerberg Initiative Michelson 20MM Foundation
+Chegg, Inc. National Science Foundation
+Arthur and Carlyse Ciocca Charitable Foundation The Open Society Foundations
+Digital Promise Jumee Yhu and David E. Park III
+Ann and John Doerr Brian D. Patterson USA-International Foundation
+Bill & Melinda Gates Foundation The Bill and Stephanie Sick Fund
+Girard Foundation Steven L. Smith & Diana T. Go
+Google Inc. Stand Together
+The William and Flora Hewlett Foundation Robin and Sandy Stuart Foundation
+The Hewlett-Packard Company The Stuart Family Foundation
+Intel Inc. Tammy and Guillermo Treviño
+Rusty and John Jaggers Valhalla Charitable Foundation
+The Calvin K. Kazanjian Economics Foundation White Star Education Foundation
+Charles Koch Foundation Schmidt Futures
+Leon Lowenstein Foundation, Inc. William Marsh Rice University
+The Maxfield Foundation
+Constant width
+Constant width bold
+print("Good morning") "Good morning"
+count = 0 0 count
+"Hello, World!"
+print("Hello, World!")
+public class Hello {
+public static void main(String[] args) {
+System.out.println("Hello, World!");
+}
+}
+print("What is your favorite song?")
+song = input() print("Cool! I like", song, "too.")
+name song
+print() input()
+print()
+input()
+print()
+sep end sep end
+sep
+print()
+end
+print("Today is Monday.") Today is Monday.
+print("I like string beans.") I like string beans.
+print("Today", "is", "Monday") Today is Monday
+print("Today", "is", "Monday", sep="...") Today...is...Monday
+print("Today is Monday, ", end="") Today is Monday, I like string
+print("I like string beans.") beans.
+print("Today", "is", "Monday", sep="? ",
+Today? is? Monday!!I like string
+end="!!")
+beans.
+print("I like string beans.")
+print()
+Hello world!
+print(Hello world!)
+print("Hello", "world", "!")
+print("Hello world!")
+Hello world!
+print("Hello")
+print(" world!")
+print("Hello")
+print(" world!", end="")
+print("Hello", end="")
+print(" world!")
+print("555", "0123", sep="-")
+555 0123
+5550123-
+555-0123
+variable = input("prompt")
+input()
+today_is = input
+today_is = input()
+print("Please enter your name: ")
+name = input()
+print("You entered:", name)
+You entered: name
+You entered: Sophia
+You entered:, Sophia
+print("Please enter a number: ")
+number = input()
+print("Value =", number)
+Value = six
+Value = 6
+Value = number
+print()
+print()
+print()
+print()
+I shall be telling this with a sigh
+Somewhere ages and ages hence:
+Two roads diverged in a wood, and I--
+I took the one less traveled by,
+And that has made all the difference.
+Shakira
+What do you like? singing
+What is your name? Shakira
+What do you like? singing
+Shakira likes singing
+Shakira likes singing
+age
+birth
+age = 6 birth = "May 15"
+city
+city = "Chicago"
+print("In which city do you live?")
+city = "London"
+print("The city where you live is", city)
+print("Total =", total)
+total = 6
+total = 6
+print("Total =", total)
+print("Total =", total)
+total = input()
+:
+==
+=
+temperature = 98.5
+98.5 = temperature
+temperature - 23.2
+101class Total total
+first_name total_price
+count c
+False await else import pass
+None break except in raise
+True class finally is return
+and continue for lambda try
+as def from nonlocal while
+assert del global not with
+asynch elif if or yield
+2nd_input
+z
+var_2
+zip_code
+DogBreed
+dog_breed
+dogBreed
+dog-breed
+team1 "Liverpool"
+team2 "Chelsea"
+score1 4
+score2 3
+team1 "versus" team2
+"Final score: " score1 "to" score2
+len()
+"Happy
+birthday!" '21'
+"Won't this
+work?" 'They said "Try
+it!", so I did'
+"17" or '17' 17
+"seventeen" or 'seventeen' seventeen
+"Where?" or 'Where?' "Where?'
+"I hope you aren't sad." 'I hope you aren't sad.'
+'The teacher said "Correct!" ' "The teacher said "Correct!" "
+Hello!
+29
+"7 days"
+email?
+"fred78@gmail.com"
+"email = fred78@gmail.com"
+email = "fred78@gmail.com"
+I know you'll answer correctly!
+'I know you'll answer correctly!'
+"I know you'll answer correctly!"
+You say "Please" to be polite
+"You say "Please" to be polite"
+'You say "Please" to be polite'
+len("Hi Ali")
+2
+5
+6
+("")
+number = "12"
+number_of_digits = len(number)
+print("Number", number, "has", number_of_digits, "digits.")
+Number 12 has 12 digits.
+Number 12 has 2 digits.
+Number 12 has number_of_digits digits.
+"A" "part" "Apart"
+"10"
+1 + 0
+"1 + 0"
+"1" + "0"
+"Awake"?
+"wake" + "A"
+"A + wake"
+"A" + "wake"
+"red"
+color = input("What is your favorite color?")
+"Your favorite color is red!"
+print("Your favorite color is " + color + !)
+print("Your favorite color is " + "color" + "!")
+print("Your favorite color is " + color + "!")
+"one-sided" holiday
+holiday = "one" + "sided"
+holiday = one-sided
+holiday = "one-" + "sided"
+What is your first name? Alan
+What is your last name? Turing
+Your first name is 4 letters long
+Your last name is 6 letters long
+"Freda" name
+"happy" feel
+"Hi Freda!" print() name
+"I'm glad you feel happy." print()
+feel
+x = 1 y = 2.0 s = "32"
+print(x, type(x))
+1 'int'
+1.0 <class 'float'>
+1 <class 'int'>
+print(y, type(y))
+2.0 <class 'int'>
+2.0 <class 'float'>
+2 <class 'int'>
+"12.0"
+string
+int
+float
+x = 7 y = 20 z = 2
+c = 0
+c = x - z
+c = c + 1
+print(c)
+1
+5
+6
+a
+a = 3.5 - 1.5
+2
+2.0
+2.5
+print(x / z)
+3
+3.0
+3.5
+print(y / z)
+0
+10
+10.0
+print(z * 1.5)
+2
+3
+3.0
+1 + 2 * 3
+7 (1 + 2) * 3 9
+() (1 + 2) * 3 9
+** 2 ** 4 16
++ - -math.pi -3.14159
+* / 2 * 3 6
++ - 1 + 2 3
+4 * 3 ** 2 + 1
+37
+40
+145
+(1 + 3) ** 2 / 4
+4 ** 2
+1 + 3
+2 / 4
+-4 ** 2
+-16
+16
+result = -2 ** 3
+'int_a' 'int_a' 10
+'float_a' 'float_a' 10.0
+'string_a' 'string_a' "10"
+10 meters
+3.28 meter2feet
+meter meter2feet feet
+feet
+SyntaxError
+print "Hello!"
+print print "Hello!"
+Traceback (most recent call last):
+File "/home/student/Desktop/example.py", line 1
+print "Hello"
+^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print("Hello")?
+^
+Traceback (most recent call last):
+File "/home/student/Desktop/example.py", line 2
+print "test"
+^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print("test")?
+SyntaxError
+SyntaxError:
+print("Have a nice
+unexpected EOF
+day!"
+while parsing
+SyntaxError: EOL
+word = input("Type a
+while scanning
+word: )
+string literal
+NameError: name
+print("You typed:", word
+'wird' is not
+wird)
+defined
+NameError: name
+prints("You typed:", print
+'prints' is not
+word)
+defined
+IndentationError:
+print("Hello") unexpected indent
+IndentationError:
+print("Goodbye") unexpected indent
+print("Breakfast options:")
+print("A. Cereal")
+print("B. Eggs")
+print("C. Yogurt")
+choice = input("What would you like? ")
+IndentationError
+NameError
+SyntaxError
+birth = input("Enter your birth date: )
+print("Happy birthday on ", birth)
+IndentationError
+NameError
+SyntaxError
+print("Breakfast options:")
+print(" A. Cereal")
+print(" B. Eggs")
+print(" C. Yogurt")
+choice = intput("What would you like? ")
+IndentationError
+NameError
+SyntaxError
+#
+"Item #1: "
+# # End of menu #End of
+menu
+# Get the user's
+preferences # Input item1 and item2
+1 # Display the menu options
+2 print("Lunch Menu")
+3 print("----------")
+4 print("Burrito")
+5 print("Enchilada")
+6 print("Taco")
+7 print("Salad")
+8 print() # End of menu
+9
+10 # Get the user's preferences
+11 item1 = input("Item #1: ")
+12 item2 = input("Item #2: ")
+#Get the user input
+# Get the user input
+# Get the user input
+print("You said:", adj1 + " " + noun1)
+# Append adj1 and noun1
+# Print out a bunch of stuff
+# Show the resulting phrase
+1 name = input("Whose birthday is today? ")
+2 print("Happy birthday to", name)
+3 print("Everyone cheer for", name)
+(""")
+"""Vacations Madlib."""
+"""Vacations Madlib. This program asks the user for two adjectives and two
+nouns, which are then used to print a funny story about a vacation. """
+# Vacations Madlib.
+#
+# This program asks the user for two adjectives
+# and two nouns, which are then used to print
+# a funny story about a vacation.
+"""Vacations Madlib."""
+"""Vacations Madlib. This program asks the user for two adjectives and two
+nouns, which are then used to print a funny story about a vacation. """
+"""Vacations Madlib. This program asks the user for two adjectives and two
+nouns, which are then used to print a funny story about a vacation. The code
+uses four variables to store the user input: two for the adjectives, and two
+for the nouns. The output is displayed on seven lines, beginning with a blank
+line after the input. """
+"Author: "
+print() input()
+print(values)
+prompt
+input(prompt)
+len(string)
+type(value) type(123) <class 'int'>
+=
++
++
+-
+*
+/
+**
+3**2
+#
+' " 'A' "A"
+"
+"""
+number number = 74
+74 squared is 5476
+74 cubed is 405224
+One tenth of 74 is 7.4
+74 plus 123 is 197
+74 minus 456 is -382
+number
+tranquil
+Adjective: scandalous
+Noun: pancake
+Noun: field
+Adjective: tranquil
+Adjective: scandalous
+Noun: pancake
+Noun: field
+input()
+tranquil place with your scandalous family.
+Usually you go to some place that is near a/an pancake or up on a/an field.
+A vacation is when you take a trip to some tranquil place with your scandalous
+family.
+Usually you go to some place that is near a/an pancake or up on a/an field.
+3*x - 5 7 x 4
+3 5
+x * -
+x = 5
+5
+1 * 2 "Hi " + "there"
+math
+print(1 + 1)
+1 + 1
+1
+name = input()
+x = 5
+3*x - 5
+3 * (x-5)
+x
+type(1)
+type('1')
+str(1)
+int('1')
+abs(-5)
+abs(5)
+len("Yo")
+len("HoHo")
+round(9.49)
+round(9.50)
+type str int len round
+x = 123
+y = 456
+print("Easy as", X)
+print("y divided by 2 is", y / 0)
+name = intput("What is your name? ")
+print(name, "is", int(name), "letters long.")
+print("That's all folks!)
+Easy as 123
+y divided by 2 is 228.0
+(no error/output)
+Stacie is 6 letters long.
+That's all folks!
+int() float() str()
+distance 250 distance 252.5
+distance 252.5 distance
+book_rating'
+book_rating' update = 1.0 0.5
+x
+x = 42.0
+x = x * 1
+input() input()
+int(5.9) 5
+float(2) 2.0
+str(3.14) "3.14"
+float()
+input()
+int()
+float() int()
+1 int()
+str() int()
+x = 4.5 y = int(x)
+y
+4
+5
+str(x)
+4.5
+"4.5"
+float(y)
+4.0
+4.5
+cups_drank cups_left
+ounces
+cups_drank
+cups_left
+quantity = int(input())
+price = float(input())
+total = quantity * price
+print(total)
+quantity price total 3 5.0 total
+15.0
+/
+8 * 0.25
+2
+2.0
+2 * 9
+18
+18.0
+20 / 2
+10
+10.0
+7 / 2
+3.0
+3.5
+12.0 / 4
+3
+3.0
+8 - 1.0
+7.0
+7
+5 - 0.25
+4.5
+4.75
+input()
+"banjo" * 3 "banjobanjobanjo"
+int('34') + 56
+'3456'
+90
+'90'
+str(12) + ' red roses'
+'12 red roses'
+'12'
+Error
+'50' * 3
+'150'
+150
+'505050'
+str(5.2) + 7
+12.2
+'12.2'
+Error
+80.0 + int('100')
+180
+180.0
+'180'
+str(3.14) + '159'
+162.14
+'3.14159'
+Error
+2.0 * 'this'
+'this'
+'thisthis'
+Error
+'.' num
+345 2.345
+str1 str2 count
+"\n" count
+round()
+# Print floats with 30 decimal places
+0.100000000000000005551115123126
+print(f'{0.1:.30f}') # prints 0.1
+0.200000000000000011102230246252
+print(f'{0.2:.30f}') # prints 0.2
+0.400000000000000022204460492503
+print(f'{0.4:.30f}') # prints 0.4
+3.0 to the power of 256 =
+1.3900845237714473e+122
+3.0 to the power of 512 =
+print('3.0 to the power of 256 =',
+1.9323349832288915e+244
+3.0**256)
+3.0 to the power of 1024 =
+print('3.0 to the power of 512 = ',
+Traceback (most recent call last):
+3.0**512)
+File "<stdin>", line 3, in <module>
+print('3.0 to the power of 1024 = ',
+print('3.0 to the power of 1024 = ',
+3.0**1024)
+3.0**1024)
+OverflowError: (34, 'Numerical result out
+of range')
+result = 2.0 * (10.0 ** 500)
+0.123456789012345678901234567890 * 0.1 0.012345678901234568430878013601
+round()
+round(2.451, 2) = 2.45
+round(2.451) = 2
+round(6.6)
+6
+6.6
+7
+round(3.5, 2)
+3
+3.5
+3.50
+round(12)
+12.0
+12
+12.00
+round(0.1, 1)
+0.1
+0.10
+0.1000000000000000055511151231257827021181583404541015625
+/ 7 / 4 7.0 / 4.0
+1.75
+// 7 // 4 1
+% 7 % 4 3
+% 7 % 4
+13 / 5
+2
+2.6
+3
+13 % 5
+2
+2.6
+3
+1 // 4
+0
+0.25
+1
+2 % 0
+0
+2
+Error
+193 // 100
+193 % 100
+m
+m m
+pounds = ounces // 16
+ounces = ounces % 16
+pounds = ounces % 16
+ounces = ounces - pounds * 16
+13
+Current minute (0-59)? 25
+Trip time (in minutes)? 340
+Current hour (0-23)? 13
+Current minute (0-59)? 25
+Trip time (in minutes)? 340
+Arrival hour is 19
+Arrival minute is 5
+if while
+18.76
+Cash payment? 20
+Total amount? 18.76
+Cash payment? 20
+Change Due $1.24
+Dollars: 1
+Quarters: 0
+Dimes: 2
+Nickels: 0
+Pennies: 4
+round()
+if while
+print() input() float()
+sqrt() sqrt()
+import math math math.sqrt(25)
+5.0
+import math
+x1 = float(input("Enter x1: "))
+y1 = float(input("Enter y1: "))
+x2 = float(input("Enter x2: "))
+y2 = float(input("Enter y2: "))
+distance = math.sqrt((x2-x1)**2 + (y2-y1)**2)
+print("The distance is", distance)
+NameError
+log()
+round()
+sqrt()
+math.abs(1)
+math.log(1)
+math.sqrt(1)
+math.e
+math.pi
+math.tau
+x math.ceil(7.4) 8
+math.ceil(x)
+x math.ceil(-7.4) -7
+x math.floor(7.4) 7
+math.floor(x)
+x math.floor(-7.4) -8
+math.log(math.e) 1.0
+math.log(x) x math.log(0) ValueError:
+math domain error
+math.log(x, math.log(8, 2) 3.0
+x
+base) math.log(10000, 10) 4.0
+math.pow(x, x y ** math.pow(3, 0) 1.0
+y) math.pow() x y math.pow(3, 3) 27.0
+math.sqrt(9) 3.0
+math.sqrt(-9)
+math.sqrt(x) x
+ValueError: math domain
+error
+math.cos(0) 1.0
+math.cos(x) x
+math.cos(math.pi) -1.0
+math.sin(0) 0.0
+math.sin(x) x
+math.sin(math.pi/2) 1.0
+math.tan(0) 0.0
+math.tan(math.pi/4)
+math.tan(x) x 0.999
+math.tau/2
+2.718
+3.142
+6.283
+math.sqrt(100)
+10.0
+10
+ValueError: math domain error
+pi * r**2
+math.pi * r**2
+math.pi * r*2
+3 ** 3
+3.0 ** 3
+math.pow(3, 3)
+a b c x1 x2
+1 0 -4 2.0 -2.0
+1 2 -3 1.0 -3.0
+2 1 -1 0.5 -1.0
+0 1 1 division by zero
+1 0 1 math domain error
+math.pi
+math.tau
+r h area volume
+0 0 0.0 0.0
+1 1 12.57 3.14
+1 2 18.85 6.28
+2.5 4.8 114.67 94.25
+3.1 7.0 196.73 211.33
+name = input("Enter someone's name: ")
+place = input("Enter a famous place: ")
+print(name, "should visit", place + "!")
+name=input ("Enter someone's name: " )
+place =input("Enter a famous place: ")
+print( name,"should visit" , place+ "!")
+name=input place+
+print ("Go team!")
+print("Go team!")
+print( "Go team!" )
+print("Hello" , name)
+print("Hello", name)
+print("Hello",name)
+name=input("Your name?
+")
+name = input("Your name= input("Your
+= name? ") name? ")
+name =input("Your
+name? ")
+print("Hi", name+"!")
+print("Hi", name + "!") print("Hi", name+ "!")
++
+print("Hi", name +"!")
+x ** 2 + 5 * x - 8
+x**2 + 5*x - 8 x ** 2+5 * x-8
+x**2+5*x-8
+name = input("What is your name? ")
+name = input ("What is your name? ")
+name = input( "What is your name? " )
+name=name+"!"
+name = name+"!"
+name = name + "!"
+print("Hello",name)
+print("Hello", name)
+print("Hello " , name)
+b**2 - 4*a*c
+b ** 2 - 4 * a * c
+b**2 - 4*a * c
+print("The unanimous Declaration of the thirteen united States of "
+"America, When in the Course of human events, it becomes "
+"necessary for one people to dissolve the political bands "
+"which have connected them with another, and to assume among "
+"the powers of the earth, the separate and equal station to "
+"which the Laws of Nature and of Nature's God entitle them, a "
+"decent respect to the opinions of mankind requires that they "
+"should declare the causes which impel them to the separation.")
++
+"grandmother"
+print(grandmother)
+print("grand" "mother")
+print("grand", "mother")
+"Today is" "a holiday"
+'Today isa holiday'
+'Today is a holiday'
+'Today is" "a holiday'
+"Ada" print("Hello," name)
+Hello,Ada
+Hello, Ada
+SyntaxError
+\
+decl = "The unanimous Declaration of the thirteen united States of " \
+"America, When in the Course of human events, it becomes " \
+"necessary for one people to dissolve the political bands..."
+decl = ("The unanimous Declaration of the thirteen united States of "
+"America, When in the Course of human events, it becomes "
+"necessary for one people to dissolve the political bands...")
+/
+\
+|
+print("..." # first part of string
+"..." # next part of string
+"...")
+print("...") # first part of string
+print("...") # next part of string
+print("...")
+text = "..." # the entire string
+print(text)
+print("Happy "
+"New Year")
+saying = ("Happy "
+"New Year")
+saying= "Happy "
+"New Year"
+1. "If you're talking about Java in particular, Python is about the best fit
+you can get amongst all the other languages. Yet the funny thing is, from a
+language point of view, JavaScript has a lot in common with Python, but it is sort
+of a restricted subset."
+2. "The second stream of material that is going to come out of this project is
+a programming environment and a set of programming tools where we really want to
+focus again on the needs of the newbie. This environment is going to have to be
+extremely user-friendly."
+3. "I have this hope that there is a better way. Higher-level tools that
+actually let you see the structure of the software more clearly will be of
+tremendous value."
+4. "Now, it's my belief that Python is a lot easier than to teach to students
+programming and teach them C or C++ or Java at the same time because all the
+details of the languages are so much harder. Other scripting languages really don't
+work very well there either."
+5. "I would guess that the decision to create a small special purpose language
+or use an existing general purpose language is one of the toughest decisions that
+anyone facing the need for a new language must make."
+int(input())
+"$" + str(cost)
+// %
+math
+abs(x) x
+int(x) x
+float(x) x
+str(x) x
+round(x, x ndigits ndigits
+x
+ndigits)
+s * n
+n s "Ha" * 3 "HaHaHa"
+x / y
+x y 7 / 4 1.75
+x // y
+x y 7 // 4 1
+x % y
+x y 7 % 4 3
+bread_weight serving_size
+num_guests
+For 25 people, you will need 3.90625 loaves of bread:
+5.859375 teaspoons instant yeast
+5.859375 teaspoons salt
+5.859375 teaspoons sugar
+9.765625 cups all-purpose flour
+7.8125 cups sourdough starter
+1.953125 cups lukewarm water
+bread_weight serving_size num_guests
+43.21
+Percentage to tip: 18
+Number of people: 2
+Enter bill amount: 43.21
+Percentage to tip: 18
+Number of people: 2
+Tip amount: $7.78
+Total amount: $50.99
+Tip per person: $3.89
+Total per person: $25.49
+s = "Python!" s[1] + s[-1]
+"P!"
+"y!"
+"yn"
+s = "Python!" s[0]
+"P" "!"
+ord() ord("P")
+chr() chr(33) "!"
+32 (space) 64 @ 96 `
+33 ! 65 A 97 a
+34 " 66 B 98 b
+35 # 67 C 99 c
+36 $ 68 D 100 d
+37 % 69 E 101 e
+38 & 70 F 102 f
+39 ' 71 G 103 g
+40 ( 72 H 104 h
+41 ) 73 I 105 i
+42 * 74 J 106 j
+43 + 75 K 107 k
+44 , 76 L 108 l
+45 - 77 M 109 m
+46 . 78 N 110 n
+47 / 79 O 111 o
+48 0 80 P 112 p
+49 1 81 Q 113 q
+50 2 82 R 114 r
+51 3 83 S 115 s
+52 4 84 T 116 t
+53 5 85 U 117 u
+54 6 86 V 118 v
+55 7 87 W 119 w
+56 8 88 X 120 x
+57 9 89 Y 121 y
+58 : 90 Z 122 z
+59 ; 91 [ 123 {
+60 < 92 \ 124 |
+61 = 93 ] 125 }
+62 > 94 ^ 126 ~
+63 ? 95 _ 127 (delete)
+ord("0")
+0
+48
+Error
+chr(126)
+~
+"~"
+Error
+Escape
+print("Escape\
+\n
+nsequence!") sequence!
+print("Escape\
+\t Escape sequence!
+tsequence!")
+print('I\'ll try
+\' I'll try my best
+my best!')
+print("I heard
+I heard you said
+\" you said
+"Yes"
+\"Yes\"")
+print("This
+\\ This prints a \
+prints a \\")
+t
+/t
+\t
+print(\\)
+print(\"\")
+print("\\")
+Enter here
+print("Enter here")
+print("Enter" + \n + "here")
+print("Enter" + "\n" + "here")
+"To me programming is more than an important practical art.
+It is also a gigantic undertaking in the foundations of knowledge."
+-- Grace Hopper
+Enter a 3-letter word: CAT
+Shift by how many letters? 3
+The secret message is: FDW
+ord()
+chr()
+"f" "F"
+{} f"Good morning, {first} {last}!"
+animal = "dog"
+says = "bark"
+print(f"My {animal} says {says} {says} {says}")
+My dog bark bark bark bark
+My dog says bark bark bark
+Error
+temp = "hot"
+food = "potato"
+print("{temp} {food}")
+{temp} {food}
+hot potato
+Error
+print(x, "+", y, "=", x + y)
+print(f"x + y = {x+y}")
+print(f"{x + y} = {x + y}")
+print(f"{x} + {y} = {x+y}")
+f"{hour}:{minute:02d}"
+minute 02d
+d f"{12345678:d}" '12345678'
+,d f"{12345678:,d}" '12,345,678'
+10d f"{12345678:10d}" ' 12345678'
+010d f"{12345678:010d}" '0012345678'
+f f"{math.pi:f}" '3.141593'
+.4f f"{math.pi:.4f}" '3.1416'
+8.4f f"{math.pi:8.4f}" ' 3.1416'
+08.4f f"{math.pi:08.4f}" '003.1416'
+MM/DD/YYYY
+f"{month:02d}/{day:02d}/{year}"
+f"{month:2d}/{day:2d}/{year}"
+f"{month}/{day}/{year}"
+money
+print(f"{money:2d}")
+print(f"{money:2f}")
+print(f"{money:.2f}")
+.2,f
+,.2f
+,d.2f
+Enter a name: Buster
+Enter a noun: dog
+Enter an adjective: super
+Verb ending in -ing: swimming
+Buster, the super dog, likes to go swimming.
+Starting hour: 9
+Starting minute: 30
+Stopping hour: 11
+Stopping minute: 0
+Hourly rate: 15
+Worked 9:30 to 11:00
+Total hours: 1.5
+Payment: $22.50
+message = "Hello"
+message "Hello" greeting
+= message greeting message
+id()
+/ type()
+id(rating)
+9793344
+<class 'float'>
+10.0
+type(rating)
+10.0
+"float"
+<class 'float'>
+value(rating)
+rating
+"rating"
+id()
+type()
+>>> rating = 10 # Integer object somewhere in memory.
+>>> type(rating)
+<class 'int'>
+>>> id(rating)
+9793344
+>>> rating = "ten" # String object somewhere else in memory.
+>>> type(rating)
+<class 'str'>
+>>> id(rating)
+140690967388272
+a = 1
+b = 2
+c = b
+b = a
+a = c
+◦ a b c
+◦
+name = "Chocolate"
+length = len(name)
+price = 1.99
+lower = min(length, price)
+product = name
+name = name * 2
+◦
+◦
+len()
+[]
+list_1 = [1, 2, 4]
+list_1 = []
+list_1 = list()
+[2, "Hello", 2.5]
+new_list == [3, 4, 5]
+new_list = [3, 4, 5]
+new_list = (3, 4, 5)
+my_list = [2, 2 3, 23]
+my_list = ["Jimmy", 2, "times"]
+my_list = ["C", "C++", "Python", "Java", "Rust", "Scala"]
+[]
+new_list[3] new_list
+len()
+len()
+len()
+1 # Setup a list of numbers
+2 num_list = [2, 3, 5, 9, 11]
+3 print(num_list)
+4
+5 # Print the length of the list
+6 print("Length: ", len(num_list))
+7
+8 # Print the 4th element in the list
+9 # The number 3 is used to refer to the 4th element
+10 print("4th element:", num_list[3])
+11
+12 # The desired value of the 4th element is actually 7
+13 # Update the value of the 4th element to 7
+14 num_list[3] = 7
+15
+16 # The list of the first 5 prime numbers
+17 print(num_list)
+[2, 3, 5, 9, 11]
+Length: 5
+4th element: 9
+[2, 3, 5, 7, 11]
+cardList
+card_list[17]
+16)card_list(16)
+card_list[16]
+"Tom" "Tim"
+name_list = ["Carla", "Monique", "Westin", "Tom"]
+name_list[-1] = "Tim"
+name_list[4] = "Tim"
+name_list[end] = "Tim"
+tuple_1 = (2, 3, 4)
+print(f'tuple_1: {tuple_1}') tuple_1: (2, 3, 4)
+print(tuple_1[1]) 3
+print()
+data_13 = ('Aimee Perry', 96, [94, 100, data_13: ('Aimee Perry', 96, [94, 100,
+97, 93]) 97, 93])
+print(f'data_13: {data_13}') [94, 100, 97, 93]
+print(data_13[2])
+tuple_1'
+tuple_1[0]
+tuple_1[1]
+tuple_1[2]
+tuple_2 = (42, 26, 13)
+tuple_3 = (42, 26, 13.5)
+my_tuple = 'a', 'b', 'c'
+my_tuple = ['a', 'b', 'c']
+my_tuple = ('a', 'b', 'c')
+my_tuple
+(0.693, 0.414, 3.142)
+(0.693, 1.414, 3.142)
+Error
+tuple_1 = ('alpha', 'bravo', 'charlie')
+tuple_1.append('charlie')
+tuple()
+my_tuple = tuple(my_list)
+my_list final_grades
+my_data
+x
+y
+15
+20
+my_data: ('x', 'y', 15, 20)
+ord(c)
+chr(i)
+'\n'
+'\t'
+f"{number:.02d}"
+f"{number:.2f}"
+id(object)
+type(object)
+my_list = ["a", "b", "c"]
+my_tuple = ("a", "b", "c")
+my_list[0] ("a") my_tuple
+my_tuple[-1] ("c") my_tuple
+true
+false
+is_fruit = "True"
+is_vegetable = 0
+is_dessert = False
+is_fruit
+is_vegetable
+is_dessert
+true
+True
+1
+is_dessert = 0
+print(type(is_dessert))
+<class 'bool'>
+<class 'int'>
+Error
+Is "ice cream" True?
+True False
+True
+False
+bool(0.000)
+True
+False
+bool(-1)
+True
+False
+bool("")
+True
+False
+bool("0")
+True
+False
+False bool(input())
+True
+False
+is_on = True
+float(is_on)
+0.0
+1.0
+str(is_on)
+"is_on"
+"True"
+int(is_on)
+0
+1
+is_admin = (user == "admin") user "admin"
+is_admin
+compare_result
+x = 14
+compare_result = (x <= 13)
+True
+False
+w = 0
+compare_result = (w != 0.4)
+True
+False
+v = 4
+compare_result = (v < 4.0)
+True
+False
+y = 2
+compare_result = (y > "ab")
+True
+False
+Error
+z = "cilantro"
+compare_result = (z == "coriander")
+True
+False
+a = "dog"
+compare_result = (a < "cat")
+True
+False
+is_zero = num=0
+is_zero num 0
+True False
+in_love
+number % 2 == 0 6
+"6 is even: True"
+if if-else
+if if-else
+if-else
+if
+True False
+if is_raining == True: if is_raining:
+if age < 12:
+print("Discount for children available")
+age
+age < 12
+print("Discount for children available")
+1 print("Have a great day.")
+2 if is_raining:
+3 print("Don't forget an umbrella!")
+4 print("See you soon.")
+1 print("Have a great day.")
+2 if is_raining:
+3 print("Don't forget an umbrella!")
+4 print("See you soon.")
+num = -10 num
+if num < 0:
+num = 25
+if num < 100:
+num = num + 50
+-10
+40
+75
+10 positive_num
+positive_num = int(input("Enter a positive number:"))
+if positive_num < 0:
+print("Negative input set to 0")
+positive_num = 0
+10
+0
+Error
+if
+if
+if if-else
+if else else
+if
+if-else
+1 # Statements before
+2
+3 if condition:
+4 # Body
+5 else:
+6 # Body
+7
+8 # Statements after
+else x
+if x >= 15:
+# Do something
+else:
+# Do something else
+x >= 15
+x <= 15
+x < 15
+x = 40 y
+if x > 30:
+y = x - 10
+else:
+y = x + 10
+30
+40
+50
+y = 50 y
+if x < 50:
+y = y / 2
+else:
+y = y * 2
+y = y + 5
+30
+55
+105
+new_temp
+new_unit
+and or not
+if-else
+hour >= 9 hour < 17 True False
+True
+True True True
+True False False
+False True False
+False False False
+hrs_to_close
+hrs_to close > 1.0
+is_admin = False is_online = True is_admin is_online
+True
+False
+x = 8 y = 21 z
+if (x < 10) and (y > 20):
+z = 5
+else:
+z = 0
+0
+5
+True
+true
+True True True
+True False True
+False True True
+False False False
+days = 21 is_damaged False
+if (days < 30) or is_damaged:
+# Process refund
+age
+if (age < 12) or (age > 65):
+# Apply student/senior discount
+age >= 12
+age <= 65
+(age >= 12) (age <= 65)
+a = 9 b = 10
+if (a%2 == 0 and b%2 == 1) or (a%2 == 1 and b%2 == 0):
+# Test passed
+else:
+# Test failed
+True False
+is_on = not is_on
+True False
+False True
+x = 13 not(x < 10)
+True
+False
+x = 18 x
+if not(x > 15 and x < 20):
+# x in correct range
+is_turn = False timer = 65 is_turn
+if timer > 60:
+is_turn = not is_turn
+True
+False
+1 + 2 * 3 7
+(1 + 2) * 3 9
+not
+and
+or
+x ** 2 + 6 / 3
+6 / 3
+x ** 2
+2 + 6
+not 3 * 5 > 10
+3 * 5
+not 3
+5 > 10
+z == 5 and x / 8 < 100
+5 and x
+x / 8
+8 < 100
+8 / 4 * 3 (8/4) * 3 8 / (4*3)
+2 ** 3 ** 4 2 ** (3**4)
+10 < x <= 20 10 < x x <= 20
+10 + 3 * 2 / 4
+10 + (3 * (2 / 4))
+10 + ((3 * 2) / 4)
+(10 + 3) * (2 / 4)
+2 * 2 ** 2 ** 3
+2 * ((2 ** 2) ** 3)
+2 * (2 ** (2 ** 3))
+((2*2) ** 2) ** 3
+100 < x > 150
+100 < x and x < 150
+100 < x or x > 150
+100 < x and x > 150
+and
+x = 8 y = 9
+x + 3 * y - 5
+30
+44
+94
+x = 8 y = 9
+(x+3) * (y-5)
+30
+44
+94
+x= y * 44
+x = y * 44
+x = ( 4 * y )
+x = (4 * y)
+x= y<44
+x = y < 44
+x = 5 * z+20
+x = 5*z + 20
+if-elif if-elif-else
+if
+60
+if
+score = int(input())
+if score < 70:
+score += 10
+# Wrong:
+if 70 <= score < 85:
+score += 5
+elif
+elif
+if elif
+if-elif
+# Statements before
+if condition:
+# Body
+elif condition:
+# Body
+# Statements after
+Body 2 condition_1 condition_2
+if condition_1:
+# Body 1
+__ condition_2:
+# Body 2
+if
+elif
+else
+x = 42 y = 0 y
+if x > 44:
+y += 2
+elif x < 50:
+y += 5
+2
+5
+7
+x Body 1 x
+Body 2
+if _________:
+# Body 1
+elif _________:
+# Body 2
+x < 0
+x == 0
+x == 0
+x < 0
+x <= 0
+if condition_1:
+# Body 1
+elif condition_2:
+# Body 2
+if condition_1:
+# Body 1
+elif condition_2:
+# Body 2
+elif condition_1:
+# Body 1
+if condition_2:
+# Body 2
+attendees = 350 rooms
+rooms = 1
+if attendees >= 100:
+rooms += 3
+if attendees <= 200:
+rooms += 7
+elif attendees <= 400:
+rooms += 14
+4
+15
+18
+if-else
+hour = 12
+if hour < 8:
+print("Too early")
+elif hour < 12:
+print("Good morning")
+elif hour < 13:
+print("Lunchtime")
+elif hour < 17:
+print("Good afternoon")
+else:
+print("Too late")
+Good morning
+Lunchtime
+Good afternoon
+Too late
+elif
+_1_
+if condition:
+# Body
+_2_
+elif condition:
+# Body
+_3_
+else:
+# Body
+_4_
+x = -1 y = -2 y
+if x < 0 and y < 0:
+y = 10
+elif x < 0 and y > 0:
+y = 20
+else:
+y = 30
+10
+20
+30
+if price < 9.99:
+order = 50
+if 9.99 <= price < 19.99:
+order = 30
+if price >= 19.99:
+order = 10
+if price < 9.99:
+order = 50
+else:
+order = 30
+order = 10
+if price < 9.99:
+order = 50
+elif price < 19.99:
+order = 30
+elif price == 19.99:
+order = 10
+if price < 9.99:
+order = 50
+elif price < 19.99:
+order = 30
+else:
+order = 10
+D "3.25 mm"
+550
+Green
+if-else
+if-else
+if game == 1 and players < 2:
+print("Not enough players")
+if game == 1 and players > 4:
+print("Too many players")
+if game == 1 and (2 <= players <= 4):
+print("Ready to start")
+if game == 2 and players < 3:
+print("Not enough players")
+if game == 2 and players > 6:
+print("Too many players")
+if game == 2 and (3 <= players <= 6):
+print("Ready to start")
+if game == 1:
+if players < 2:
+print("Not enough players")
+elif players > 4:
+print("Too many players")
+else:
+print("Ready to start")
+if game == 2:
+if players < 3:
+print("Not enough players")
+elif players > 6:
+print("Too many players")
+else:
+print("Ready to start")
+# Test game IDs 3-end
+leaf_count = 9 leaf_shape = "teardrop"
+Might be poison ivy
+Might be poison oak
+Might be poison sumac
+num_dancers = 49
+if num_dancers < 0:
+print("Error: num_dancers is negative")
+else:
+if num_dancers % 2 == 1:
+print("Error: num_dancers is odd")
+print(num_dancers, "dancers")
+Error: num_dancers is odd
+49 dancers
+Error: num_dancers is odd
+49 dancers
+x = 256 y = 513 max = 512
+if x == y:
+# Body 1
+elif x < y:
+# Body 2
+if y >= max:
+# Body 3
+else:
+# Body 4
+else:
+# Body 5
+Body 2
+Body 2 Body 3
+Body 2 Body 5
+x =118 y = 300 max = 512
+if x == y:
+# Body 1
+elif x < y:
+# Body 2
+if y >= max:
+# Body 3
+else:
+# Body 4
+else:
+# Body 5
+Body 2
+Body 3
+Error
+"lunch" "dinner"
+1 2 3
+lunch
+3
+Your order: Butternut squash soup
+if-else
+expression_if_true if condition else expression_if_false
+condition
+expression_if_true
+expression_if_false
+max_num = y if x < y else x
+if-else
+if x%2 == 0:
+response = 'even'
+else:
+response = 'odd'
+response = if x%2 == 0 "even" else "odd"
+response = "odd" if x%2 == 0 else "even"
+response = "even" if x%2 == 0 else "odd"
+x = 100 offset = 10 result
+result = x + offset if x < 100 else x - offset
+90
+100
+110
+min_num = x if x < y else min_num = y
+min_num = x
+x < y
+min_num = y
+if-else
+if x < 50:
+result = True
+else:
+result = False
+result = True if x < 50 else False
+result = x < 50
+total
+total = fee + 10 if hours > 12 else 2
+10 2
+fee + 10 2
+fee + 10 fee + 2
+ping ping_report
+ping ping_report "low to average"
+ping ping_report "too high"
+ping_report
+30 "Ping is low to average"
+True False
+True False
+True False
+True False
+if-else
+bool(x) x True False
+x == y x y True False
+10 == 10 True
+x != y x y True False
+7 != 4 True
+x > y x y True x y False
+9 > 3 True
+x < y x y True x y False
+9 < 8 False
+x >= y
+x y True x y
+False 2 >= 2 True
+x <= y
+x y True x y
+False 8 <= 7 False
+x and y x y True True and
+False False
+x or y x y True True or
+False True
+not x x True False
+not True False
+# Statements before
+if condition:
+if
+# Body
+# Statements after
+# Statements before
+if condition:
+# Body
+else
+else:
+# Body
+# Statements after
+# Statements before
+if condition:
+# Body
+elif condition:
+elif
+# Body
+else:
+# Body
+# Statements after
+# Statements before
+if condition:
+if condition:
+# Body
+else:
+if # Body
+else:
+if condition:
+# Body
+else:
+# Body
+# Statements after
+expression_if_true if condition else expression_if_false
+for while
+break continue
+while
+# Initializing the first two Fibonacci numbers
+f = 1
+g = 1
+print (f, end = ' ')
+# Running the loop while the last Fibonacci number is less than 20
+while g < 20:
+print(g, end = ' ')
+# Calculating the next Fibonacci number and updating the last two sequence
+numbers
+temp = f
+f = g
+g = temp + g
+g False
+13
+20
+21
+1 1 2 3 5 8 13
+1 2 3 5 8 13
+1 1 2 3 5 8 13 21
+while
+# Initialization
+counter = 1
+# While loop condition
+while counter <= 10:
+if counter % 2 == 1:
+print(counter)
+# Counting up and increasing counter's value by 1 in each iteration
+counter += 1
+n = 4
+while n > 0:
+print(n)
+n = n - 1
+print("value of n after the loop is", n)
+value of n after the loop is -1.
+value of n after the loop is 0.
+value of n after the loop is 1.
+n = 4
+while n > 0:
+print(n)
+# Modified line
+n = n + 1
+print("value of n after the loop is", n)
+while "begin"
+"begin"
+"begin" "The while loop condition has been met."
+while
+n1 n2 while
+n1 n2 n1 n2 number % 2 != 0
+for
+for
+str_var = "A string"
+count = 0
+for c in str_var:
+count += 1
+print(count)
+7
+8
+9
+count += 1 count *= 2
+0
+16
+28
+str_var = "A string"
+count = 0
+for c in str_var:
+count += 1
+# New line
+print(c, end = '*')
+print(count)
+A string*
+A*s*t*r*i*n*g*
+A* *s*t*r*i*n*g*
+Range()
+for range()
+for
+range()
+0
+range(end) end range(4) 0, 1, 2, 3
+1
+range(0, 3) 0, 1, 2
+range(2, 6) 2, 3, 4, 5
+range(start, end) start end
+1
+range(-13, -13, -12,
+-9) -11, -10
+range(0, 4,
+0, 1, 2, 3
+1)
+range(start, end,
+start end
+step)
+step
+range(1, 7,
+1, 3, 5
+2)
+range(3, 3, 2, 1, 0,
+-2, -1) -1
+range(10,
+10, 6, 2
+0, -4)
+for
+while
+# While loop implementation of printing
+# multiples of 5 less than 50
+# For loop condition using
+# range() function to print # Initialization
+# all multiples of 5 less than 50 i = 0
+for i in range(0, 50, 5): # Limiting the range to be less than 50
+print(i) while i < 50:
+print(i)
+i+=5
+range()
+range(10, 23, 3)
+range(10, 22, 3)
+range(22, 10, -3)
+range()
+range(5, 1, 1)
+range(5, 1, -1)
+range(5, 0, -1)
+range(-1, -2, -1)
+1
+-1, -2
+-2
+range(1, 2, -1)
+1
+1, 2
+range(5, 2)
+0, 2, 4
+2, 3, 4
+for
+"Hi everyone"
+1
+n1 n2 n1 < n2
+Input: 2 8
+prints
+2 4 6 8
+7 5 3
+while
+for
+for
+hour = 8
+minute = 0
+while hour <= 9:
+while minute <= 59:
+print(hour, ":", minute)
+minute += 30
+hour += 1
+minute = 0
+8 : 0
+8 : 30
+9 : 0
+9 : 30
+i = 1
+while i <= 5:
+j = 1
+while i + j <= 5:
+print(i, j)
+j += 1
+i += 1
+i = 1
+while i <= 2:
+j = 1
+while j <= 3:
+print('*', end = '')
+j += 1
+print()
+i += 1
+******
+***
+***
+**
+**
+**
+1 2 3 4
+2 4 6 8
+3 6 9 12
+4 8 12 16
+i = 1
+while i <= 4:
+while j <= 4:
+print(i * j, end = ' ')
+j += 1
+print()
+i += 1
+i = 1
+while i <= 4:
+j = 1
+while j <= 4:
+print(i * j, end = ' ')
+j += 1
+print()
+i += 1
+i = 1
+while i <= 4:
+j = 1
+while j <= 4:
+print(i * j, end = ' ')
+j += 1
+i += 1
+for while for
+range()
+for i in range(3):
+for j in range(4):
+print(i, ' ', j)
+for i in range(3):
+for j in range(4):
+print(i, ' ', j)
+0 1 2 3
+0 2 4 6
+0 3 6 9
+for i in range(4):
+for j in range(4):
+print(i * j, end = ' ')
+print()
+for i in range(1, 4):
+for j in range(4):
+print(i * j)
+for i in range(1, 4):
+for j in range(4):
+print(i * j, end = ' ')
+print()
+for while
+for
+while
+numbers = [12, 5, 3]
+i = 0
+for n in numbers:
+while i < n:
+print (i, end = " ")
+i += 2
+i = 0
+print()
+1 2 3 4 5 6 7 8 9
+1 2 3 4 5 6 7 8
+1 2 3 4 5 6 7
+1 2 3 4 5 6
+1 2 3 4 5
+1 2 3 4
+1 2 3
+1 2
+1
+Finish!
+while for
+****
+***
+**
+*
+++++
++++
+++
++
+break continue
+break continue while for
+for while
+break
+"a" user_string
+for user_string
+for for
+user_string = "This is a string."
+for i in range(len(user_string)):
+if user_string[i] == 'a':
+print("Found at index:", i)
+break
+break
+break
+counter = 1
+while True:
+if counter >= 10:
+break
+print(counter)
+counter += 1
+string_val = "Hello World"
+for c in string_val:
+if c == " ":
+break
+print(c)
+Hello
+Hello World
+H
+e
+l
+l
+o
+i = 1
+while True:
+if i%3 == 0 and i%5 == 0:
+print(i)
+break
+i += 1
+i = 1
+count = 0
+while True:
+if i%2 == 0 or i%3 == 0:
+count += 1
+if count >= 5:
+print(i)
+break
+i += 1
+5
+8
+30
+continue for while continue
+continue
+i = 10
+while i >= 0:
+i -= 1
+if i%3 != 0:
+continue
+print(i)
+for c in "hi Ali":
+if c == " ":
+continue
+print(c)
+h
+i
+A
+l
+i
+h
+i
+A
+l
+i
+hi
+Ali
+"Found"
+"Not found"
+my_list
+else break
+else for while
+else
+break
+for 10 10
+"Found 10!"
+10 else
+"10 is not in the list."
+10
+"Found 10!" i 10
+10 "10 is not in the list."
+seen 10 seen
+"10 is not in the list."
+numbers = [2, 5, 7, 11, 12]
+numbers = [2, 5, 7, 11, 12]
+seen = False
+for i in numbers:
+for i in numbers:
+if i == 10:
+if i == 10:
+print("Found 10!")
+print("Found 10!")
+break
+seen = True
+else:
+if seen == False:
+print("10 is not in the list.")
+print("10 is not in the list.")
+n = 16
+exp = 0
+i = n
+while i > 1:
+if n%2 == 0:
+i = i/2
+exp += 1
+else:
+break
+else:
+print(n,"is 2 to the", exp)
+16 is 2 to the 3
+16 is 2 to the 4
+n = 7
+exp = 0
+i = n
+while i > 1:
+if n%2 == 0:
+i = i//2
+exp += 1
+else:
+break
+else:
+print(n,"is 2 to the", exp)
+7 is 2 to the 3
+7 is 2 to the 2
+numbers = [1, 2, 2, 6]
+for i in numbers:
+if i >= 5:
+print("Not all numbers are less than 5.")
+break
+else:
+print(i)
+continue
+else:
+print("all numbers are less than 5.")
+1
+2
+2
+6
+Not all numbers are less than 5.
+1
+2
+2
+Not all numbers are less than 5.
+1
+2
+2
+6
+all numbers are less than 5.
+while
+for
+range()
+break for while
+continue
+else break
+range(end)
+end
+range(start, end) start end
+range(start, end, s) start end s
+# initialization
+while expression:
+while # loop body
+# statements after the loop
+# initialization
+for loop_variable in container:
+for # loop body
+# statements after the loop
+while outer_loop_expression:
+# outer loop body (1)
+while inner_loop_expression:
+while # inner loop body
+# outer loop body (2)
+# statements after the loop
+# initialization
+while loop_expression:
+# loop body
+if break_condition:
+break
+break
+# remaining body of loop
+# statements after the loop
+# initialization
+while loop_expression:
+# loop body
+if continue_condition:
+continue
+continue
+# remaining body of loop
+# statements after the loop
+# initialization
+for loop_expression:
+# loop body
+if break_condition:
+break
+else
+# remaining body of loop
+else:
+# loop else statement
+# statements after the loop
+N N
+number number % i != 0 i 1
+number
+N = 6
+2
+3
+5
+7
+11
+13
+print() sqrt()
+1 input_num = 14
+2 offset_num = input_num - 10
+3 print(offset_num)
+print("Please log in")
+username = input("Username:")
+password = input("Password:")
+print("Login successful")
+print("Welcome,", username)
+# Use float() to convert input for area calculation
+width = float(input("Enter width:"))
+height = float(input("Enter height:"))
+print("Area is", width*height)
+def
+def water_plant:
+water_plant
+def define water_plant
+def print_phone_num():
+print("Phone: (", 864, ")", 555, "-", 0199)
+print("User info:")
+print_phone_num()
+Phone: ( 864 ) 555 - 1000
+User info:
+Phone: ( 864 ) 555 - 1000
+User info:
+User info:
+Phone: ( 864 ) 555 - 1000
+print_pc_specs()
+print_pc_specs
+print_pc_specs()
+print_pc_specs():
+calc_tax
+calculate user tax
+c_t
+calc_distance()
+concessions()
+concessions()
+Food/Drink Options:
+Popcorn: $8-10
+Candy: $3-5
+Soft drink: $5-7
+terms() Y/N
+terms()
+1 "Y"
+Do you accept the terms and conditions?
+Y
+Thank you for accepting.
+2 "N" "Y"
+Do you accept the terms and conditions?
+N
+Have a good day.
+Do you accept the terms and conditions?
+Y
+Thank you for accepting.
+1 def park_greet():
+2 """Output greeting."""
+3 print("Welcome. Open sunrise to sunset.")
+4
+5 car_count = 1
+6 park_greet()
+7 if car_count > 50:
+8 # Direct to extra parking lot
+park_greet()
+1 def extra_lot():
+2 # Function definition
+3
+4 def park_greet():
+5 """Output greeting."""
+6 print("Welcome. Open sunrise to sunset.")
+7
+8 car_count = 1
+9 park_greet()
+10 if car_count > 50:
+11 extra_lot()
+extra_lot()
+1 def extra_lot():
+2 """Output extra parking lot info."""
+3 print("Take the second right to park.")
+4
+5 def park_greet():
+6 """Output greeting."""
+7 print("Welcome. Open sunrise to sunset.")
+8
+9 car_count = 1
+10 park_greet()
+11 if car_count > 50:
+12 extra_lot()
+def park_greet():
+"""Output greeting."""
+print("Welcome to the park")
+print("Open sunrise to sunset")
+park_greet()
+Welcome to the park
+Welcome to the park
+Open sunrise to sunset
+Open sunrise to sunset
+Welcome to the park
+terms() Y/N
+accepted() rejected() accepted() "Thank you for
+accepting the terms." rejected() "You have rejected the terms. Thank you."
+2 "Y" "N"
+Do you accept the terms and conditions?
+Y
+Thank you for accepting the terms.
+terms() "N"
+Do you accept the terms and conditions?
+N
+You have rejected the terms. Thank you.
+laundromat_info()
+washers_open() dryers_open()
+washers_open() washer_count washer_count
+dryers_open() dryer_count dryer_count
+laundromat_info()
+50 40
+Liam's Laundry
+7a - 11p
+Open washers: 50
+Open dryers: 40
+num = float(input())
+num_sq = num * num
+print(num, "squared is", num_sq)
+num
+num_sq
+num num_sq
+def print_square():
+num_sq = num * num
+print(num, "squared is", num_sq)
+num = float(input())
+print_square()
+num
+num_sq
+num num_sq
+num
+def print_double():
+num_d = num * 2
+print(num, "doubled is", num_d)
+def print_square():
+num_sq = num * num
+print(num, "squared is", num_sq)
+num = float(input())
+print_double()
+print_square()
+print_double()
+print_square()
+print_double() print_square()
+def print_time():
+out_str = "Time is " + str(hour) + ":" + str(min)
+print(out_str)
+hour = int(input())
+min = int(input())
+print_time()
+hour min
+out_str
+hour min out_str
+def print_greeting():
+print(out_str)
+hour = int(input())
+min = int(input())
+if hour < 12:
+out_str = "Good morning"
+else:
+out_str = "Good day"
+print_greeting()
+hour min
+out_str
+out_str
+def print_greeting():
+print("Good day,")
+print_time()
+def print_time():
+out_str = "Time is " + str(hour) + ":" + str(min)
+print(out_str)
+hour = int(input())
+min = int(input())
+print_greeting()
+print_greeting()
+print_time()
+print_greeting() print_time()
+global
+9
+def update_hour():
+tmp = hour
+if is_dst:
+tmp += 1
+else:
+tmp -= 1
+is_dst = True
+hour = int(input("Enter hour: "))
+update_hour()
+print("New hour:", hour)
+New hour: 9
+New hour: 10
+Error
+def update_hour():
+new_hour = hour
+if is_dst:
+new_hour += 1
+else:
+new_hour -= 1
+is_dst = True
+hour = int(input("Enter hour: "))
+update_hour()
+print("New hour:", new_hour)
+New hour: 9
+New hour: 10
+Error
+Enter hour: "))
+update_hour()
+print("New hour:", new_hour)
+def update_hour():
+global new_hour
+new_hour = hour
+if is_dst:
+new_hour += 1
+else:
+new_hour -= 1
+is_dst = True
+hour = int(input("Enter hour: "))
+update_hour()
+print("New hour:", new_hour)
+New hour: 9
+New hour: 10
+Error
+"br" battle_royale() practice()
+battle_royale()
+find_teammates()
+"Match starting . . ."
+practice()
+"Launching practice on [desired map]"
+find_teammates()
+br
+1
+Finding 2 players...
+Match starting...
+p
+Queen's Canyon
+Launching practice on Queen's Canyon
+1 def print_welcome(name):
+2 print(f"Welcome {name}!")
+3
+4 username = int(input("Enter new username: "))
+5 print_welcome(username)
+name
+username
+name username
+name
+username
+name username
+name
+print_welcome()
+username name
+def print_div(op_1, op_2):
+""" Prints division operation """
+print(f"{op_1}/{op_2} = {op_1/op_2}")
+num_1 = 6
+num_2 = 3
+print_div(num_1, num_2) # Prints "6/3 = 2.0"
+print_div(num_2, num_1) # Prints "3/6 = 0.5"
+print_div(num_1) # Error: Missing argument: op_2
+def calc_distance(x1, y1, x2, y2):
+dist = math.sqrt((x2-x1)**2 + (y2-y1)**2)
+print(dist)
+p1_x =int(input("Enter point 1's x: "))
+p1_y =int(input("Enter point 1's y: "))
+p2_x =int(input("Enter point 2's x: "))
+p2_y =int(input("Enter point 2's y: "))
+calc_distance(p1_x, p1_y, p2_x, p2_y)
+p1_x
+x1
+p1_y
+y1
+x2 calc_distance(2, 4, 3, 6)
+2
+4
+3
+6
+Error
+weekend_temps type convert_temps()
+def convert_temps(temps, unit):
+if unit == "F":
+for i in range(len(temps)):
+temps[i] = (temps[i]-32) * 5/9
+unit = "C"
+else:
+for i in range(len(temps)):
+temps[i] = (temps[i]*9/5) + 32
+unit = "F"
+# Weekend temperatures in Fahrenheit.
+wknd_temps = [49.0, 51.0, 44.0]
+deg_sign = u"\N{DEGREE SIGN}" # Unicode
+metric = "F"
+# Convert from Fahrenheit to Celsius.
+convert_temps(wknd_temps, metric)
+for temp in wknd_temps:
+print(f"{temp:.2f}{deg_sign}{metric}", end=" ")
+9.44°F 10.56°F 6.67°F type "C"
+convert_temps() wknd_temps temps
+unit "C" metric unit
+deg_sign deg_sign
+unit
+"C"
+print_area()
+3
+4
+Triangle area: 6.0
+print_scores()
+print_scores([67, 68, 72, 71, 69], 10)
+67 would be updated to 77
+68 would be updated to 78
+72 would be updated to 82
+71 would be updated to 81
+69 would be updated to 79
+return None
+calc_mpg(miles, gallons)
+def calc_mpg(miles, gallons):
+mpg = miles/gallons
+return mpg
+mpg
+None
+Error
+calc_sqft()
+def calc_sqft(length, width):
+sqft = length * width
+return
+sqft
+None
+Error
+hw_1() hw_2()
+def hw_1():
+print("Hello world!")
+return
+def hw_2():
+print("Hello world!")
+hw_1() hw_2()
+hw_1() None hw_2()
+return
+if-else return Return
+calc_mpg()
+calc_mpg() 0 -1
+def calc_mpg(miles, gallons):
+if gallons > 0:
+mpg = miles/gallons
+return mpg
+else:
+Car 1's mpg is 28.0
+print("Gallons can't be 0")
+Gallons can't be 0
+return -1
+Car 2's mpg is -1
+car_1_mpg = calc_mpg(448, 16)
+print("Car 1's mpg is", car_1_mpg)
+car_2_mpg = calc_mpg(300, 0)
+print("Car 2's mpg is", car_2_mpg)
+yarn_weight(3)
+def yarn_weight(num):
+if num == 0:
+return "lace"
+elif num == 1:
+return "sock"
+elif num == 2:
+return "sport"
+elif num == 3:
+return "dk"
+elif num == 4:
+return "worsted"
+elif num == 5:
+return "bulky"
+else:
+return "super bulky"
+"lace"
+"dk"
+"super bulky"
+def inc_volume(level, max):
+if level < max:
+return level
+level += 1
+else:
+return level
+vol1 = inc_volume(9, 10)
+print(vol1)
+vol2 = inc_volume(10, 10)
+print(vol2)
+9
+10
+10
+10
+10
+11
+bill
+def tax(total):
+return .06 * total
+def auto_tip(total):
+return .2 * total
+bill = 100.0
+bill += tax(bill) + auto_tip(bill)
+26.0
+126.0
+val2
+def sq(num):
+return num * num
+def offset(num):
+return num - 2
+val = 5
+val2 = sq(offset(val))
+9
+23
+days_alive()
+round()
+days_alive()
+21
+You have been alive about 7670 days.
+avg_list()
+def greeting(msg, name, count):
+i = 0
+for i in range(0, count):
+print(msg, name)
+greeting(count=1, name="Ash", msg="Hiya")
+count=1
+name="Ash"
+msg="Hiya"
+greeting(count=2, name="Ash", msg="Hiya")
+Ash Hiya
+Ash Hiya
+Hiya Ash
+Hiya Ash
+greeting("Welcome", count=1, name="Anita")
+"Welcome"
+count=1
+name="Anita"
+greeting("Morning", "Morgan", count=3)
+greeting(count=1,"Hi", "Bea")
+greeting("Cheers", "Colleagues", 10)
+def season(m, d, hemi="N"): "N"
+greeting()
+def greeting(msg, name="Friend", count=1):
+i = 0
+for i in range(0, count):
+print(msg, name)
+msg
+name count
+greeting()
+greeting(name="Gina")
+greeting("Greetings")
+greeting(count=0, msg="Hello")
+Hello Friend
+Error
+=
+donate() donate()
+amount
+name
+msg
+donate(10, "gg")
+Anonymous donated 10 credits: gg
+return
+def function_name():
+"""Docstring"""
+# Function body
+def function_name(parameter_1):
+# Function body
+def function_name(parameter_1):
+# Function body
+function_name(argument_1)
+def function_name():
+# Function body
+return result # Returns the value of result to the caller
+def function_name(parameter_1):
+# Function body
+local_var = parameter_1 * 5
+return local_var
+global_var = function_name(arg_1)
+def function_name(parameter_1, parameter_2):
+# Function body
+function_name(parameter_2 = 5, parameter_1 = 2)
+def function_name(parameter_1 = 100):
+# Function body
+greetings
+"""Functions that print standard greetings."""
+def hello():
+print("Hello!")
+def bye():
+print("Goodbye!")
+area
+"""Functions to calculate the area of geometric shapes."""
+import math
+# 2D shapes
+def square(side):
+"""Gets the area of a square."""
+return side**2
+def rectangle(length, width):
+"""Gets the area of a rectangle."""
+return length * width
+def triangle(base, height):
+"""Gets the area of a triangle."""
+return 0.5 * base * height
+def trapezoid(base1, base2, height):
+"""Gets the area of a trapezoid."""
+return 0.5 * (base1 + base2) * height
+def circle(radius):
+"""Gets the area of a circle."""
+return math.pi * radius**2
+def ellipse(major, minor):
+"""Gets the area of an ellipse."""
+return math.pi * major * minor
+# 3D shapes
+def cube(side):
+"""Gets the surface area of a cube."""
+return 6 * side**2
+def cylinder(radius, height):
+"""Gets the surface area of a cylinder."""
+return 2 * math.pi * radius * (radius + height)
+def cone(radius, height):
+"""Gets the surface area of a cone."""
+return math.pi * radius * (radius + math.hypot(height, radius))
+def sphere(radius):
+"""Gets the surface area of a sphere."""
+return 4 * math.pi * radius**2
+area
+SyntaxError
+cube(5)
+60
+125
+150
+area
+import area
+print("Area of a basketball court:", area.rectangle(94, 50))
+print("Area of a circus ring:", area.circle(21))
+Area of a basketball court: 4700
+Area of a circus ring: 1385.4423602330987
+import secret
+import secret.py
+import "secret.py"
+circle(3)
+area.circle(3)
+circle.area(3)
+cel2fah(c)
+9/5 * c + 32
+fah2cel(f)
+5/9 * (f - 32)
+km2mi(km)
+km / 1.60934
+mi2km(mi)
+mi * 1.60934
+conversion
+How fast were you driving? 180
+Woah, that's like 112 mph!
+What was the temperature? 35
+That's 95 degrees Fahrenheit!
+from
+from
+from area import triangle, cylinder
+print(triangle(1, 2))
+print(cylinder(3, 4))
+from
+print(sqrt(25))
+from math import sqrt
+import sqrt from math
+import math
+from math import sin, cos, tan
+ImportError
+NameError
+SyntaxError
+from area import cube
+def cube(x): # Name collision (replaces the imported function)
+return x ** 3
+print(cube(2)) # Calls the local cube() function, not area.cube()
+cube
+from area import square, circle
+def area(phone):
+"""Gets the area code of a phone number."""
+def circle(x, y, size):
+"""Draws a circle centered at (x, y)."""
+def is_square(length, width):
+"""Returns True if length and width are equal."""
+import area
+area = 51
+import cylinder from volume
+def cube(size):
+"""Generates a "size X size" rubik's cube."""
+1 def hello():
+2 print("Hello!")
+3
+4 def hello(name):
+5 print("Hello,", name)
+6
+7 hello()
+8 hello("Chris")
+Bouncy ball area: 13
+Bouncy ball volume: 4
+Cone hat area: 227
+Cone hat volume: 209
+if __name__ == "__main__"
+1 import math
+2
+3 print("Defining sphere function")
+4
+5 def sphere(radius):
+6 """Gets the volume of a sphere."""
+7 return 4/3 * math.pi * radius**3
+import math
+def sphere(radius):
+"""Gets the volume of a sphere."""
+return 4/3 * math.pi * radius**3
+for r in range(10000000):
+volume = sphere(r)
+name = input("What is your name? ")
+print(f"Nice to meet you, {name}!")
+live = input("Where do you live? ")
+print(f"{live} is a great place.")
+if __name__ == "__main__"
+import math
+print(math.__name__)
+print(__name__)
+>math
+test
+__main__
+test
+math
+__main__
+import math
+print(math.__name__)
+print(__name__)
+math
+test
+__main__
+test
+math
+__main__
+if __name__ == "main":
+if __name__ == __main__:
+if __name__ == "__main__":
+__doc__
+__file__
+if __name__ == "__main__"
+if
+cel2fah fah2cel km2mi mi2km
+conversion
+0 C is 32 F
+5 C is 41 F
+10 C is 50 F
+15 C is 59 F
+20 C is 68 F
+20 F is -7 C
+25 F is -4 C
+30 F is -1 C
+35 F is 2 C
+40 F is 4 C
+1 km is 0.6 mi
+2 km is 1.2 mi
+3 km is 1.9 mi
+4 km is 2.5 mi
+5 km is 3.1 mi
+5 mi is 8.0 km
+6 mi is 9.7 km
+7 mi is 11.3 km
+8 mi is 12.9 km
+9 mi is 14.5 km
+help()
+<p style="color: Red">Look out!</p>
+#RRGGBB
+#DC143C Crimson
+#008000 Green #00FF00 Lime
+#000080
+#FFA500 (orange)
+#008000 (green)
+tohex() torgb()
+"""Functions for working with color names and hex/rgb values."""
+# Primary colors
+RED = "#FF0000"
+YELLOW = "#FFFF00"
+BLUE = "#0000FF"
+# Secondary colors
+ORANGE = "#FFA500"
+GREEN = "#008000"
+VIOLET = "#EE82EE"
+# Neutral colors
+BLACK = "#000000"
+GRAY = "#808080"
+WHITE = "#FFFFFF"
+def _tohex(value):
+"""Converts an integer to an 8-bit (2-digit) hexadecimal string."""
+if value <= 0:
+return "00"
+if value >= 255:
+return "FF"
+return format(value, "02X")
+def tohex(r, g, b):
+"""Formats red, green, and blue integers as a color in hexadecimal."""
+return "#" + _tohex(r) + _tohex(g) + _tohex(b)
+def torgb(color):
+"""Converts a color in hexadecimal to red, green, and blue integers."""
+r = int(color[1:3], 16) # First 2 digits
+g = int(color[3:5], 16) # Middle 2 digits
+b = int(color[5:7], 16) # Last 2 digits
+return r, g, b
+def lighten(color):
+"""Increases the red, green, and blue values of a color by 32 each."""
+r, g, b = torgb(color)
+return tohex(r+32, g+32, b+32)
+def darken(color):
+"""Decreases the red, green, and blue values of a color by 32 each."""
+r, g, b = torgb(color)
+return tohex(r-32, g-32, b-32)
+darken(BLUE)
+colors.darken(BLUE)
+colors.darken(colors.BLUE)
+_
+#
+:
+help()
+help(module_name)
+help(colors)
+Help on module colors:
+NAME
+colors - Functions for working with color names and hex/rgb values.
+FUNCTIONS
+darken(color)
+Decreases the red, green, and blue values of a color by 32 each.
+lighten(color)
+Increases the red, green, and blue values of a color by 32 each.
+tohex(r, g, b)
+Formats red, green, and blue integers as a color in hexadecimal.
+torgb(color)
+Converts a color in hexadecimal to red, green, and blue integers.
+DATA
+BLACK = '#000000'
+BLUE = '#0000FF'
+GRAY = '#808080'
+GREEN = '#008000'
+ORANGE = '#FFA500'
+RED = '#FF0000'
+VIOLET = '#EE82EE'
+WHITE = '#FFFFFF'
+YELLOW = '#FFFF00'
+FILE
+/home/student/Desktop/colors.py
+>>> help(colors)
+Help on module colors:
+NAME
+colors - Functions for working with color names and hex/rgb values.
+FUNCTIONS
+darken(color)
+Decreases the red, green, and blue values of a color by 32 each.
+lighten(color)
+Increases the red, green, and blue values of a color by 32 each.
+tohex(r, g, b)
+Formats red, green, and blue integers as a color in hexadecimal.
+torgb(color)
+Converts a color in hexadecimal to red, green, and blue integers.
+DATA
+BLACK = '#000000'
+BLUE = '#0000FF'
+GRAY = '#808080'
+GREEN = '#008000'
+ORANGE = '#FFA500'
+RED = '#FF0000'
+VIOLET = '#EE82EE'
+WHITE = '#FFFFFF'
+YELLOW = '#FFFF00'
+FILE
+/home/student/Desktop/colors.py
+_tohex
+tohex
+torgb
+random statistics
+import random
+help(random)
+import statistics
+help(statistics)
+help()
+help()
+import random
+help(random.randint)
+help(random.choice)
+import statistics
+help(statistics.median)
+help(statistics.mode)
+math sqrt() pi
+calendar
+datetime
+email
+math
+os
+random
+statistics
+sys
+turtle
+zipfile
+calendar.SUNDAY?
+1
+6
+7
+tkinter
+turtle
+webbrowser
+arrow
+BeautifulSoup
+bokeh
+matplotlib
+moviepy
+nltk
+numpy
+pandas
+pillow
+pytest
+requests
+scikit-learn
+scipy
+scrapy
+tensorflow
+BeautifulSoup Scrapy
+Bokeh Matplotlib
+MoviePy Pillow
+datetime
+arrow
+calendar
+time
+hex_to_name
+name_to_hex
+normalize_hex
+datetime
+date date
+Your birth date: 2005-03-14
+Today's date is: 2023-06-01
+You were born 6653 days ago
+(that is 574819200 seconds)
+You are about 18 years old
+datetime
+You
+are 15 years and 4 days old
+from datetime import date
+birth = date(2005, 3, 14)
+today = date(2020, 3, 14) # 15 years later
+delta = today - birth
+years = delta.days // 365
+days = delta.days % 365
+print("You are", years, "years and", days, "days old")
+birth
+today
+arrow
+import arrow
+birth = arrow.get(2005, 3, 14)
+birth.humanize()
+arrow
+birth
+birth
+print() You are 18 years 4 months and 7 days old
+arrow
+import
+from
+if __name__ == "__main__"
+help()
+import module
+from module import
+function
+if __name__ ==
+"__main__":
+help(module_name)
+help(function_name)
+date
+date(2023, 2, 14)
+from datetime import date
+lower() upper()
+< <= > >= == != in
+not in
+"c" "d"
+"c"
+"c" >
+> >= False "d" "c"
+"d"
+< "d" "c" > "d"
+"ab" "ac"
+"ab" <
+< <= True "ab"
+"ac"
+"ac"
+"ab" < "ac"
+"aa" ==
+== True
+"aa"
+"a" != "a" "b"
+!= True
+"b"
+"bc"
+"a" in
+in False "a" "a" in "bc"
+"bc"
+"bc"
+"a" not
+not in True "a" "a" not in "bc"
+in "bc"
+"aaa" < "aab"
+True
+False
+"aa" < "a"
+True
+False
+"aples" in "apples"
+undefined
+True
+False
+lower() upper()
+lower() upper()
+lower() upper() x
+x = "Apples"
+# The lower() method converts a string to all lowercase characters
+print(x.lower())
+# The upper() method converts a string to all uppercase characters
+print(x.upper())
+apples
+APPLES
+"aBbA".lower()
+abba
+ABBA
+abbA
+"aBbA".upper()
+abba
+ABBA
+ABbA
+aBBA
+"a".upper() == "A"
+True
+False
+s_input lower() upper()
+s_input "a" "t"
+"A" "T" True False
+s_input s_input "a" "t"
+s
+len(s) - 1 "Cloud"
+s -len(s)
+"flower"
+"hello"
+"h"
+"e"
+"o"
+"Blue"
+"e"
+"u"
+"l"
+word = "chance"
+print(word[-1] == word[5])
+True
+False
+[a:b]
+a b a b a b
+len(string)
+"hh:mm" "hh" "mm"
+time_string = "13:46"
+minutes = time_string[3:5]
+print(minutes)
+46
+"hh:mm" "hh" "mm"
+time_string = "14:50"
+hour = time_string[:2]
+print(hour)
+14
+a_string = "Hello world"
+print(a_string[2:4])
+"el"
+"ll"
+"llo"
+location = "classroom"
+print(location[-3:-1])
+"ro"
+"oo"
+"oom"
+greeting = "hi Leila"
+name = greeting[3:]
+" Leila"
+"Leila"
+"ila"
+x = "string"
+x[0] = "*"
+x = "string"
+x = "*" + x[1:]
+x = "string"
+x = "*" + x
+string_variable = "example"
+string_variable[-1] = ""
+TypeError
+IndexError
+NameError
+str = "morning"
+str = str[1]
+print(str)
+TypeError
+m
+o
+"Hello my fellow classmates"
+"Hi" "hello"
+string_variable
+Input:
+string_variable = "great"
+indices = [0, 1]
+prints eat
+in
+count()
+find()
+index()
+in True
+False
+"a" in "an umbrella"
+2
+False
+True
+1
+"ab" in "arbitrary"
+True
+False
+"" in "string"
+True
+False
+in for for
+for c in "string":
+print(c, end = "")
+string
+s
+t
+r
+i
+n
+g
+s t r i n g
+count = 0
+for c in "abca":
+if c == "a":
+count += 1
+print(count)
+0
+1
+2
+word = "cab"
+for i in word:
+if i == "a":
+print("A", end = "")
+if i == "b":
+print("B", end = "")
+if i == "c":
+print("C", end = "")
+cab
+abc
+CAB
+ABC
+0
+aaa".count("a")
+True
+1
+3
+"weather".count("b")
+0
+-1
+False
+"aaa".count("aa")
+1
+2
+3
+-1
+"banana".find("a")
+1
+3
+5
+"banana".find("c")
+0
+-1
+ValueError
+"b".find("banana")
+-1
+0
+ValueError
+find()
+index()
+ValueError
+"hh:mm" "hh"
+"mm"
+time_string = "The time is 12:50"
+index = time_string.index(":")
+print(time_string[index+1:index+3])
+50
+"school".index("o")
+3
+4
+-3
+"school".index("ooo")
+3
+4
+ValueError
+sentence = "This is a sentence"
+index = sentence.index(" ")
+print(sentence[:index])
+"This"
+"This "
+"sentence"
+Input: "This is great"
+prints:
+2
+Thisisgreat
+format()
+Dear John, I'd like to take a programming course with Prof. Potter.
+Dear Kishwar, I'd like to take a math course with Prof. Robinson.
+{}
+format()
+s = "Dear {}, I'd like to take a {} course with Prof. {}."
+print(s)
+print(s.format("John", "programming", "Potter"))
+print(s.format("Kishwar", "math", "Robinson"))
+Dear {}, I'd like to take a {} course with Prof. {}.
+Dear John, I'd like to take a programming course with Prof. Potter.
+Dear Kishwar, I'd like to take a math course with Prof. Robinson.
+print("Hello {}!".format("Ana"))
+Ana
+Hello Ana
+Hello Ana!
+print("{}:{}".format("One", "1"))
+One1
+One:1
+1:One
+print("{}".format("one", "two", "three"))
+one
+two
+onetwothree
+s = "Weather in {season} is {temperature}."
+print(s)
+print(s.format(season = "summer", temperature = "hot"))
+print(s.format(season = "winter", temperature = "cold"))
+Weather in {season} is {temperature}.
+Weather in summer is hot.
+Weather in winter is cold.
+s = "Weather in {season} is {temperature}; very very {temperature}."
+print(s)
+print(s.format(season = "summer", temperature = "hot"))
+print(s.format(temperature = "cold", season = "winter"))
+Weather in {season} is {temperature}; very very {temperature}.
+Weather in summer is hot; very very hot.
+Weather in winter is cold; very very cold.
+print("Hey {name}!".format(name = "Bengio"))
+Hey name!
+Hey Bengio
+Hey Bengio!
+print("Hey {name}!".format("Bengio"))
+Hey name!
+KeyError
+Hey Bengio!
+greeting = "Hi"
+name = "Jess"
+print("{greeting} {name}".format(greeting = greeting, name = name))
+greeting name
+Hi Jess
+Jess Hi
+format()
+print("{1}{0}".format("Home", "Welcome"))
+"Welcome Home" "Home"
+"Welcome" "{1}{0}" "Welcome
+Home"
+"very very cold" "very
+hot"
+template1 = "{0} {0} {1}"
+template2 = "{0} {1}"
+print(template1.format("very", "cold"))
+print(template2.format("very", "hot"))
+very very cold
+very hot
+Student Name Major Grade
+----------------------------------------------
+Manoj Sara Computer Science A-
+Gabriel Wang Electrical Engineering A
+Alex Narayanan Social Sciences A+
+{name:15}
+name
+< > ^
+{name:^20}
+template = "{hex:<7}{name:<10}"
+print(template.format(hex = "#FF0000", #FF0000Red
+<
+name = "Red")) print(template.format(hex #00FF00green
+= "#00FF00", name = "green"))
+template = "{hex:>7}{name:>10}"
+print(template.format(hex = "#FF0000", #FF0000 Red
+>
+name = "Red")) print(template.format(hex #00FF00 green
+= "#00FF00", name = "green"))
+template = "{hex:^7}{name:^10}"
+print(template.format(hex = "#FF0000", #FF0000 Red
+name = "Red")) print(template.format(hex #00FF00 green
+= "#00FF00", name = "green"))
+template = "{name:12}"
+formatted_name = template.format(name = "Alice")
+print(len(formatted_name))
+5
+12
+"Alice"
+template = "{greeting:>6}"
+formatted_greeting = template.format(greeting = "Hello")
+print(formatted_greeting[0])
+H
+" Hello"
+template = "{:5}"
+print(template.format("123456789"))
+56789
+123456
+123456789
+format()
+{[index]:[width][.precision][type]}
+index
+width
+precision
+type format()
+"f" "d" "s"
+.7
+f
+print("{:.7f}".format(0.9795)) 0.9795000
+.3
+f
+print("{:.3f}".format(12)) 12.000
+.2
+f
+print("{:+.2f}".format(4)) +4.00 +
+0>5
+print("{:0>5d}".format(5)) 00005
+d
+.3
+print("{:.3s}".format("12.50")) 12. s
+print('{0:.3f}'.format(3.141592))
+3.141592
+3.1
+3.142
+print('{:1>3d}'.format(3))
+113
+311
+3.000
+print('{:+d}'.format(123))
+123
++123
+:+123
+Input: [12.5, 2]
+Prints: 012.50
+002:00
+split()
+join()
+"1-2".split('-') ["1", "2"]
+split() "1\t2\n3 4".split()
+["1", "2", "3", "4"]
+print("1*2*3*".split('*'))
+["1", "*", "2", "*", "3", "*"]
+["1", "2', "3"]
+[1, 2, 3]
+print("a year includes 12 months".split())
+["a year includes 12 months"]
+["a", "year", "includes", 12, "months"]
+["a", "year", "includes", "12", "months"]
+s = """This is a test"""
+out = s.split()
+print(out)
+Error
+['This', 'is', 'a', 'test']
+>['This', 'is a', 'test']
+split()
+','.join(["this", "is", "great"]) "this,is,great"
+elements = ['A', 'beautiful', 'day', 'for', 'learning']
+print(",".join(elements))
+'A beautiful day for learning'
+['A, beautiful, day, for, learning']
+'A,beautiful,day,for,learning'
+"sss".join(["1","2"])
+out
+s = ["1", "2"]
+out = "".join(s)
+12
+"12"
+"1 2"
+"happy,smiling,face"
+happy
+smiling
+face
+join()
+You ordered nothing
+You ordered eggs
+You ordered eggs and ham
+You ordered eggs, ham, and toast
+len()
+upper()
+lower()
+count()
+find()
+index()
+ValueError
+format()
+join()
+split()
+in
+in
+for character in string:
+for # loop body
+append() remove() pop()
+for
+append()
+remove() pop()
+append() remove() pop()
+pop()
+1 """Operations for adding and removing elements from a list."""
+2
+3 # Create a list of students working on a project
+4 student_list = ["Jamie", "Vicky", "DeShawn", "Tae"]
+5 print(student_list)
+6
+7 # Another student joins the project. The student must be added
+to the list.
+8 student_list.append("Ming")
+9 print(student_list)
+10
+11 # "Jamie" withdraws from the project. Jamie must be removed
+from the list.
+12 student_list.remove("Jamie")
+13 print(student_list)
+14
+15 # Suppose "Ming" had to be removed from the list.
+16 # A pop() operation can be used since Ming is last in the
+list.
+17 student_list.pop()
+18 print(student_list)
+['Jamie', 'Vicky', 'DeShawn', 'Tae']
+['Jamie', 'Vicky', 'DeShawn', 'Tae', 'Ming']
+['Vicky', 'DeShawn', 'Tae', 'Ming']
+['Vicky', 'DeShawn', 'Tae']
+add()
+append()
+pop()
+23 number_list
+remove()
+number_list.remove()
+number_list.remove(23)
+pop()
+remove()
+pop() remove()
+my_list = [2, 3, 5, 7, 9]
+for
+for element in my_list:
+i for
+for i in range(0, len(my_list)):
+9
+4
+5
+for i in range(0, len(my_list), 2):
+print(my_list[i], end=' ')
+2 5 9
+2 3 5 7 9
+2
+5
+9
+"football" "soccer"
+"found!" "soccer"
+sort() reverse()
+[12, 3, 19, 25, 16, -3, 5]
+25
+-3
+5
+["cat", "bat", "dog", "coyote", "wolf"]
+["bat", "cat", "coyote", "dog", "wolf"]
+["wolf", "coyote", "dog", "cat", "bat"]
+"flask" "flash"
+"flask" < "flash"
+"flask" == "flash"
+"flask" > "flash"
+sort() reverse()
+sort()
+"A"
+"a" "G" "Gail" "apple"
+reverse()
+# Setup a list of numbers
+num_list = [38, 92, 23, 16]
+print(num_list)
+# Sort the list
+num_list.sort()
+print(num_list)
+# Setup a list of words
+dance_list = ["Stepping", "Ballet", "Salsa", "Kathak", "Hopak", "Flamenco",
+"Dabke"]
+# Reverse the list
+dance_list.reverse()
+print(dance_list)
+# Sort the list
+dance_list.sort()
+print(dance_list)
+[38, 92, 23, 16]
+[16, 23, 38, 92]
+["Dabke", "Flamenco", "Hopak", "Kathak", "Salsa", "Ballet", "Stepping"]
+["Ballet", "Dabke", "Flamenco", "Hopak", "Kathak", "Salsa", "Stepping"]
+board_games = ["go", "chess", "scrabble", "checkers"]
+board_games
+sort(board_games)
+board_games.sort()
+board_games.sort('ascending')
+board_games
+board_games.reverse()
+reverse(board_games)
+board_games reverse()
+'go'
+'checkers'
+'scrabble'
+max() min() sum()
+max() min()
+max() min()
+sum()
+"""Common list operations."""
+# Set up a list of number
+snum_list = [28, 92, 17, 3, -5, 999, 1]
+# Set up a list of words
+city_list = ["New York", "Missoula", "Chicago", "Bozeman",
+"Birmingham", "Austin", "Sacramento"]
+# Usage of the max() funtion
+print(max(num_list))
+# max() function works for strings as well
+print(max(city_list))
+# Usage of the min() funtion which also works for strings
+print(min(num_list))
+print(min(city_list))
+# sum() only works for a list of numbers
+print(sum(num_list))
+999
+Sacramento
+-5
+Austin
+1135
+nums_list
+min(nums_list)
+nums_list.min()
+minimum(nums_list)
+["Lollapalooza", "Coachella", "Newport Jazz festival", "Hardly Strictly
+Bluegrass", "Austin City Limits"]
+Coachella
+Austin City Limits
+sum([1.2, 2.1, 3.2, 5.9])
+sum()
+11
+12.4
+copy()
+my_list = [1, 2, 3]
+list2 = my_list
+list2[0] = 13
+print(sum(my_list))
+6
+13
+18
+my_list = [1, 2, 3]
+list2 = my_list.copy()
+list2[0] = 13
+print(max(my_list))
+3
+13
+18
+my_list = ["Cat", "Dog", "Hamster"]
+list2 = my_list
+list2[2] = "Pigeon"
+print(sum(my_list))
+CatDogPigeon
+Error
+word_list
+[2, [3, 5], 17]
+[3, 5]
+matA
+[[7, 4, 5], [3, 9, 6], [1, 2, 8]]
+[7, 4, 5
+3, 9, 6
+1, 2, 8]
+[[7, 3, 1], [4, 9, 2], [1, 2, 8]
+6
+[5]
+[2][1]
+[1][2]
+print(matA[0])
+Error
+7
+[7, 4, 5]
+for
+for
+1 """Iterating a list-of-lists."""
+2
+3 # Create a list of numbers
+4 list1 = [[1, 2, 3],
+5 [1, 4, 9],
+6 [1, 8, 27]]
+7
+8 # Iterating the list-of-lists
+9 for row in list1:
+10 for num in row:
+11 print(num, end=" ")
+12 print()
+1 2 3
+1 4 9
+1 8 27
+my_list = [[7, 4, 5, 12],
+[24, 3, 9, 16],
+[12, 8, 91, -5]]
+my_list 7 4 -5
+for row in my_list:
+for elem in row:
+print(elem)
+for elem in my_list:
+print(elem)
+range()
+my_list 7 4 -5 for
+for column_index in range(0, len(my_list[0])):
+for row_index in range (0, len(my_list)):
+print(my_list[row_index][column_index])
+for row_index in range(0, len(my_list)):
+for column_index in range (0, len(my_list)):
+print(my_list[row_index][column_index])
+print()
+for row_index in range(0, len(my_list)):
+for column_index in range (0, len(my_list[0])):
+print(my_list[row_index][column_index])
+[i][j] i j
+result[1][2]
+list_name = [expression for loop_variable in iterable]
+list_name for for
+loop_variable iterable
+for
+[0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
+for
+# Create an empty List.
+squares_list = []
+# Add items to a list, as squares of numbers starting at 0 and ending at 9.
+for i in range(10):
+squares_list.append(i*i)
+square_list = [i*i for i in range(10)]
+i*i loop_variablei
+for
+poem_lines
+1 # Create a list of words
+2 words_list = ["one", "two", "red", "blue"]
+3
+4 # Use a list comprehension to create a new list called
+poem_lines
+5 # Inserting the word "fish" attached to each word in words_list
+6 poem_lines = [w + " fish" for w in words_list]
+7 for line in poem_lines:
+8 print(line)
+one fish
+two fish
+red fish
+blue fish
+b_list
+a_list = [1, 2, 3, 4, 5]
+b_list = [i+2 for i in a_list]
+[1, 2, 3, 4, 5]
+[0, 1, 2, 3, 4]
+[3, 4, 5, 6, 7]
+new_list
+new_list = [i//3 for i in range(1, 15, 3)]
+[0.3333333333333333, 1.3333333333333333, 2.3333333333333335,
+3.3333333333333335, 4.333333333333333]
+[0, 1, 2, 3, 4]
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+list_name = [expression for loop_variable in container if condition]
+list_name
+new_list
+my_list = [21, -1, 50, -9, 300, -50, 2]
+new_list = [m for m in my_list if m < 0]
+[21, 50, 300, 2]
+[21, -1, 50, -9, 300, -50, 2]
+[-1, -9, -50]
+my_string = "This is a home."
+new_list = [i for i in my_string if i in 'aeiou']
+[i, i, a, o, e]
+['i', 'i'', 'a', 'o', 'e']
+Error
+new_list = [r for r in range (0, 21, 2) if r%2 != 0]
+[]
+[21]
+[1, 3, 5, 7, 9, 11, 13, 15, 17, 19]
+append() remove() pop()
+sort()
+reverse()
+copy()
+append(element)
+remove(element)
+pop()
+max(list)
+min(list)
+sum(list)
+sort()
+reverse()
+copy()
+type()
+days = {"Sunday": 1, "Monday": 2, "Tuesday": 3}
+days
+"Sunday", "Monday", "Tuesday"
+1, 2, 3
+0, 1, 2
+days
+0, 1, 2
+1, 2, 3
+"Sunday", "Monday", "Tuesday"
+"Sunday"
+"Sunday"
+1
+0
+encoding = {"a": 97, "b": 98, "A": 65, "B": 66}
+type(encoding)
+dictionary
+dict
+str
+encoding "a" "A"
+{} dict_1 = {}
+dict() dict_2 = dict()
+my_dict =
+{"pizza": 2, "pasta": 3, "drink": 4} my_dict
+my_dict = ()
+my_dict = {}
+my_dict = []
+"one": 1
+my_dict = ("one": 1)
+my_dict = ("one", 1)
+my_dict = {"one": 1}
+my_dict
+my_dict = {"a": 1, "b": 2}
+dict()
+my_list = [("apple", 2), ("banana", 3), ("orange", 4)]
+my_dict = dict(my_list)
+my_dict = dict(apple=2, banana=3, orange=4)
+old_dict = {"apple": 2, "banana": 3, "orange": 4}
+new_dict = dict(old_dict)
+my_dict = [key1:value1, key2:value2]
+my_dict = dict(key1=value1, key2=value2)
+my_dict = {key1=value1, key2=value2}
+my_dict = dict({"a": 1})
+print(my_dict)
+{"a": 1}
+<class, 'dict'>
+"a"
+1
+"a": "A" "b": "B"
+dict(a: A, b: B)
+dict([("a", "A"), ("b", "B")])
+dict({"a" = "A", "b" = "B"})
+my_info "first name" "last
+name" "age" my_info
+[]
+get() get()
+None
+my_dict {"apple": 2, "banana": 3,
+"orange": 4} get()
+"banana" "apple" "pineapple" -1
+my_dict = {"apple": 2, "banana": 3, "orange": 4}
+print(my_dict["banana"]) # Prints: 3
+print(my_dict.get("apple")) # Prints: 2
+print(my_dict.get("pineapple", -1)) # Prints: -1
+members = {"Jaya": "Student", "John": "TA", "Ksenia": "Staff"}
+members["Jaya"]
+0
+None
+"Student"
+members.get("jaya")
+0
+None
+"Student"
+members.get("jaya", "does not exist")
+"Student"
+"does not exist"
+None
+keys() values() items()
+keys() values() items() dict_keys
+dict_values dict_items list list()
+{"a": 97, "b": 98, "c": 99} keys() values()
+items() list()
+list
+dictionary_object = {"a": 97, "b": 98, "c": 99}
+print(dictionary_object.keys())
+print(list(dictionary_object.keys()))
+print(dictionary_object.values())
+print(dictionary_object.items())
+dict_keys(["a", "b", "c"])
+["a", "b", "c"]
+dict_values([97, 98, 99])
+dict_items([("a", 97), ("b", 98), ("c", 99)])
+numbers = {"one": 1, "two": 2, "three": 3}
+numbers.keys()
+dict_keys
+dict_values
+list
+print(numbers.values())
+[1, 2, 3]
+dict_keys([1, 2, 3])
+dict_values([1, 2, 3])
+print(list(numbers.keys()))
+["three", "two", "one"]
+["one", "two", "three"]
+dict_keys(["one", "two", "three"])
+update()
+my_dict = {"apple": 2, "banana": 3, "orange": 4}
+my_dict["pineapple"] = 1
+print(my_dict) # Prints: {"apple": 2, "banana": 3, "orange": 4, "pineapple": 1}
+update() update()
+my_dict = {"apple": 2, "banana": 3, "orange": 4}
+my_dict.update({"pineapple": 1, "cherry": 0})
+print(my_dict) # Prints: {"apple": 2, "banana": 3, "orange": 4, "pineapple": 1,
+"cherry": 0}
+my_dict = {"apple": 2, "banana": 3, "orange": 4}
+my_dict["apple"] = 1
+print(my_dict) # Prints: {"apple": 1, "banana": 3, "orange": 4}
+update()
+my_dict = {"apple": 2, "banana": 3, "orange": 4}
+my_dict.update({"apple": 1})
+print(my_dict) # Prints: {"apple": 1, "banana": 3, "orange": 4}
+del pop()
+del
+my_dict = {"apple": 2, "banana": 3, "orange": 4}
+del my_dict["orange"]
+print(my_dict) # Prints: {"apple": 2, "banana": 3}
+pop()
+my_dict = {"apple": 2, "banana": 3, "orange": 4}
+deleted_value = my_dict.pop("banana")
+print(deleted_value) # Prints: 3
+print(my_dict) # Output: {"apple": 2, "orange": 4}}
+food = {"Coconut soup": "$15", "Butter Chicken": "$18", "Kabob":
+"$20"}
+"Coconut soup" "$11"
+food = {""Coconut soup": "$15""}
+food["Coconut soup"] = 11
+food["Coconut soup"] = "$11"
+"Butter Chicken": "$18" food
+food.remove("Butter Chicken")
+del food["Butter Chicken"]
+del food.del("Butter Chicken")
+food food.update({"Kabob": "$22", "Sushi":
+"$16"})
+{"Coconut soup": "$15", "Butter Chicken": "$18", "Kabob": "$22", "Sushi":
+"$16"}
+{"Coconut soup": "$15", "Butter Chicken": "$18", "Kabob": "$20", "Sushi":
+"$16"}
+{ "Sushi": "$16", "Coconut soup": "$15", "Butter Chicken": "$18", "Kabob":
+"$20"}
+cars
+"Mustang": 10
+"Volt": 3
+"Mustang" 2
+"Volt"
+Prints {"Mustang": 2}
+Input:
+string_value = "This is a string"
+Prints 10
+for
+# (key, value) in dictionary.items()
+movies = {"The godfather": 1974, "Interstellar": 2014}
+print(("Interstellar", 2014) in movies.items())
+True
+# dictionary[key] operand test_value
+movies = {"The godfather": 1974, "Interstellar": 2014}
+print(movies["The godfather"] < 2000)
+True
+# key in dictionary.keys()
+movies = {"The godfather": 1974, "Interstellar": 2014}
+print("Interstellar" in movies.keys())
+True
+# value in dictionary.values()
+movies = {"The godfather": 1974, "Interstellar": 2014}
+print(2014 in movies.values())
+True
+fruit_count = {"apple": 2, "orange": 5, "pomegranate": 1}
+"apple" fruit_count.keys()
+True
+False
+("orange", 5) fruit_count.items()
+SyntaxError
+True
+False
+"pomegranate"
+0
+fruit_count("pomegranate") > 0
+fruit_count["pomegranate"] > 0
+fruit_count.get("pomegranate" > 0)
+keys()
+items()
+for key in dictionary: # Loop expression
+# Statements to execute in the loop
+# Statements to execute after the loop
+zip_codes = {"Berkeley": 94709, "Santa Cruz": 95064, "Mountain View": 94030}
+for key, value in zip_codes.items():
+print(key, value)
+Berkeley 94709
+Santa Cruz 95064
+Mountain View 94030
+zip_codes = {"Berkeley": 94709, "Santa Cruz": 95064, "Mountain View": 94030}
+for key in zip_codes.keys():
+print(key)
+Berkeley
+Santa Cruz
+Mountain View
+zip_codes = {"Berkeley": 94709, "Santa Cruz": 95064, "Mountain View": 94030}
+for value in zip_codes.values():
+print(value)
+94709
+95064
+94030
+keys()
+values()
+items()
+fruit_count = {"apple": 2, "orange": 5, "banana": 1}
+for key in fruit_count.keys():
+print(key, end = " ")
+apple orange banana
+2 5 1
+("apple", 2) ("orange", 5) ("banana", 1)
+fruit_count = {"apple": 2, "orange": 5, "banana": 1}
+for value in fruit_count.values():
+print(value * 2, end = " ")
+apple orange banana
+2 5 1
+4 10 2
+Input:
+string_value = "This is a string"
+Prints {"T": 1, "h": 1, "i": 3, "s": 3, " ": 3, "a": 1, "t": 1, "r": 1, "n": 1,
+"g": 1}
+fruit_count
+Input:
+fruit_count = {"banana": 2, "orange": 5, "peach": 5}
+Prints 12
+company_org_chart = {
+"Marketing": {
+"ID234": "Jane Smith"
+},
+"Sales": {
+"ID123": "Bob Johnson",
+"ID122": "David Lee"
+},
+"Engineering": {
+"ID303": "Radhika Potlapally",
+"ID321": "Maryam Samimi"
+}
+}
+print(company_org_chart["Sales"]["ID122"])
+print(company_org_chart["Engineering"]["ID321"])
+David Lee
+Maryam Samimi
+{key: value}
+{key1: {key2: value}}
+{key: {value: key2}}
+{key_expression: value_expression for element in iterable}
+numbers = [1, 2, 3, 4, 5]
+my_dict = {x: x**2 for x in numbers if x % 2 == 0}
+print(my_dict)
+{1: 1, 3: 9, 5: 25}
+{2: 4, 4: 16}
+{1: 2, 2: 4, 3: 6, 4: 8, 5: 10}
+names = ["Alice ", "Bob ", "Charlie "]
+name_lengths = {name: len(name) for name in names}
+print(name_lengths)
+{ "Alice ": 5, "Bob ": 3, "Charlie ": 7}
+{5: "Alice ", 3: "Bob ", 7: "Charlie "}
+{ "A ": 5, "B ": 3, "C ": 7}
+my_dict = {i: i**2 for i in range(4)}
+print(my_dict)
+{0: 0, 1: 1, 2: 4, 3: 9}
+{0: 0, 1: 1, 2: 4}
+{1: 1, 2: 4, 3: 9}
+employees dept_employees
+Input:
+employees = {
+1001: {"name": "Alice", "department": "Engineering", "salary": 75000},
+1002: {"name": "Bob", "department": "Sales", "salary": 50000},
+1003: {"name": "Charlie", "department": "Engineering", "salary": 80000},
+1004: {"name": "Dave", "department": "Marketing", "salary": 60000},
+1005: {"name": "Eve", "department": "Sales", "salary": 55000}
+}
+Resulting dictionary:
+{
+"Engineering": {1001: {"name": "Alice", "salary": 75000}, 1003: {"name":
+"Charlie", "salary": 80000}},
+"Sales": {1002: {"name": "Bob", "salary": 50000}, 1005: {"name": "Eve",
+"salary": 55000}},
+"Marketing": {1004: {"name": "Dave", "salary": 60000}}
+}
+dict
+dict()
+get()
+items() keys() values()
+update()
+del pop()
+my_dict = {key1:value1, key2:value2}
+# Using a list
+my_list = [(key1, value1), (key2, value2)]
+my_dict = dict(my_list)
+dict() # Using keyword arguments
+my_dict = dict(key1=value1, key2=value2)
+# From another dictionary
+old_dict = {key1: value1, key2: value2}
+new_dict = dict(old_dict)
+my_dict = {key1: value1, key2: value2}
+# Accessing item using square bracket
+notation
+my_dict[key1]
+# Accessing item through get() method
+my_dict.get(key1)
+my_dict.items()
+my_dict.keys()
+my_dict.values()
+my_dict = {key1: value1, key2: value2}
+# Updating an item using square bracket
+notation
+my_dict[key1] = new_value
+# Adding a new key-value pair using square
+bracket notation
+my_dict[key3] = value3
+# Updating an item using update() method
+my_dict.update({key1: new_value})
+# Adding a new key-value pair using
+update() method
+my_dict.update({key3: value3})
+my_dict = {key1: value1, key2: value2}
+# Using del keyword
+del my_dict[key1]
+# Using pop() method
+deleted_value = my_dict.pop(key1)
+for key in dictionary: # Loop expression
+# Statements to execute in the loop
+#Statements to execute after the loop
+{
+key_1:{key11:value11, key12:value12},
+key_2:{key21:value21, key22:value22}
+}
+{key_expression: value_expression for
+element in iterable}
+"even" "odd"
+Input:
+input_list = [3, 5, 6, 1]
+Prints {"even": [6], "odd":[3, 5, 1]}
+Venue
+__init__()
+class Cat:
+def __init__(self):
+self.name = 'Kitty'
+self.breed = 'domestic short hair'
+self.age = 1
+def print_info(self):
+print(self.name, 'is a ', self.age, 'yr old', self.breed)
+pet_1 = Cat()
+pet_2 = Cat()
+Cat
+class Cat
+self
+Cat
+__init__
+name
+pet_1
+breed
+pet_2
+print_info
+petcat
+pet_cat
+PetCat
+___init___()
+__init__() self
+1 class Rectangle:
+2 def __init__(self):
+3 self.length = 1
+4 self.width = 1
+5 def area(self):
+6 return self.length * self.width
+7
+8 room_1 = Rectangle()
+9 room_1.length = 10
+10 room_1.width = 15
+11 print("Room 1's area:", room_1.area())
+12 room_3 = Rectangle()
+13 room_3.length = 12
+14 room_3.width = 14
+15 print("Room 3's area:", room_3.area())
+__init__()
+self
+room_1
+room_1
+Rectangle
+def __init__(): room_1's
+length = 0 width = 0
+length = 1 width = 1
+Error
+instance_name.attribute_name
+class_name.attribute_name
+loc
+order_id
+order_3
+order_1.cup_size = 8 order_3.print_order()
+Cafe Coffee Order 3 : 8 oz
+Cafe Coffee Order 3 : 16 oz
+Error
+CoffeeOrder.loc = 'Caffeine Cafe'
+order_3.print_order()
+Caffeine Cafe Order 3 : 16 oz
+Cafe Coffee Order 3 : 16 oz
+Error
+self.cls_id = 5 __init__()
+Cafe Coffee Order 5 : 16 oz
+Cafe Coffee Order 3 : 16 oz
+Error
+FlightTicket
+__init__()
+print_info()
+2121
+KEF
+D22B
+11:45
+12B
+Jules Laurent
+Passenger Jules Laurent departs on flight # 2121 at 11:45 from KEF D22B in seat
+12B
+Book
+__init__()
+print_info()
+Lord of the Bracelets
+Blake R. R. Brown
+1999
+423
+A Match of Thrones
+Terry R. R. Thomas
+2020
+761
+Lord of the Bracelets by Blake R. R. Brown published by Fantasy Tomes
+in 1999 with 423 pages
+A Match of Thrones by Terry R. R. Thomas published by Fantasy Tomes
+in 2020 with 761 pages
+__init__()
+__init__() __init__()
+self
+__init__()
+__init__()
+def __init__(p_id, bp, self, tmp=-1.0, hr=-1, rr=-1):
+def __init__(self, p_id, bp, tmp=-1.0, hr=-1, rr=-1):
+def __init__(self, p_id, bp=[-1,-1], tmp=-1.0, hr=-1, rr=-1):
+__init__() p_id=5241
+patient_10 = Vitals(self, 5241)
+patient_10 = Vitals(5241)
+__init__()
+def __init__(self, p_id, bp, tmp, hr, rr)
+__init__()
+__init__()
+class ProductionCar:
+def __init__(self, make, model, year, max_mph = 0.0):
+self.make = make
+self.model = model
+self.year = year
+self.max_mph = max_mph
+def max_kmh(self):
+return self.max_mph * 1.609344
+def update_max(self, speed):
+self.max_mph = speed
+car_1 = ProductionCar('McLaren', 'Speedtail', 2020) # car_1.max_mph is 0.0
+car_1.update_max(250.0) # car_1.max_mph is 250.0
+print(car_1.make, car_1.model, 'reaches', car_1.max_mph, 'mph (',
+car_1.max_kmh(), 'km/h)') # Prints McLaren Speedtail reaches 250.0 mph (402.336
+km/h)
+class CoffeeOrder:
+loc = 'Cafe Coffee'
+cls_id = 1
+def __init__(self, size=16, milk=False, sugar=False):
+self.order_id = CoffeeOrder.cls_id
+self.cup_size = size
+self.with_milk = milk
+self.with_sugar = sugar
+CoffeeOrder.cls_id += 1
+def change(self, milk, sugar):
+self.with_milk = milk
+self.with_sugar = sugar
+def print_order(self):
+print(CoffeeOrder.loc,'Order', self.order_id, ':', self.cup_size, 'oz')
+if self.with_milk:
+print('\twith milk')
+if self.with_sugar:
+print('\twith sugar')
+order_1 = CoffeeOrder(8)
+order_2 = CoffeeOrder(8, True, False)
+order_1.change(False, True)
+order_1
+change()
+print_order()
+VendingMachine count'
+0
+__init__(num) num
+refill() count max' "Refilled"
+sell(order) count count order "Sold: [order]"
+print_stock() "Current stock: [count]"
+100
+25
+Current stock: 100
+Sold: 25
+Current stock: 75
+Refilled
+Current stock: 100
+__init__() __new__()
+eng = Engineer()
+add()
+_add_()
+__add__()
+__init__()
+__str__()
+__init__() __str__()
+__add__(self, other)
+__sub__(self, other)
+__mul__(self, other)
+__truediv__(self, other)
+__mod__(self, other)
+__pow__(self, other)
+other
+Account.__add__()
+acct_a = Account("Ashe", 6492)
+acct_b = Account("Bevins", 5210)
+acct_ab = acct_a + acct_b
+acct_a
+acct_b
+acct_ab
+__sub__()
+class Pair:
+def __init__(self, x=0, y=0):
+self.x = x
+self.y = y
+# Define __sub__()
+p1 = Pair(10, 2)
+p2 = Pair(8, 4)
+p3 = p1 - p2
+print(p3.x, p3.y)
+def __sub__(self):
+return Pair(self.x - other.x, self.y - other.y)
+def __sub__(self, other):
+return self.x - other.x, self.y - other.y
+def __sub__(self, other):
+return Pair(self.x - other.x, self.y - other.y)
+__lt__(self, other)
+__gt__(self, other)
+__le__(self, other)
+__ge__(self, other)
+__eq__(self, other)
+__ne__(self, other)
+class Account:
+def __init__(self, name="", amount=0):
+self.name = name
+self.amount = amount
+def __str__(self):
+return f"{self.name}: ${self.amount}"
+def __lt__(self, other):
+return self.amount < other.amount
+False
+def __gt__(self, other): True
+return self.amount > other.amount True
+def __eq__(self, other):
+return self.amount == other.amount
+acct_a = Account("Ashe", 6492)
+acct_b = Account("Bevins", 5210)
+print(acct_a < acct_b)
+print(acct_a > acct_b)
+acct_a.amount = 5210
+print(acct_a == acct_b)
+def __le__(other):
+return self.amount <= other.amount
+def __le__(self, other):
+return self.amount <= other.amount
+def __le__(self, other):
+return other.amount <= self.amount
+__gt__()
+ExerciseLog e_type duration
+ExerciseLogs
+" and "
+walk
+5
+run
+30
+walk and run: 35 minutes
+isinstance()
+isinstance(my_var,
+int) True my_var
+Account
+Account'
+Level
+import Level from character
+from character import Level
+import Level
+import triangle as
+tri
+class Level:
+def __init__(self, level=1):
+self.level = level
+...
+def level_up(self):
+...
+class XP:
+def __init__(self, XP=0):
+self.XP = XP
+...
+def add_xp(self, num):
+...
+import character as c
+bard_level = c.Level(1)
+bard_XP = c.XP(0)
+bard_XP.add_xp(300)
+bard_level.level_up()
+...
+import character
+as game_char
+Level
+rogue_level = character.Level()
+rogue_level = game_char.Level()
+rogue_level = character.game_char.Level()
+character = 'Ranger'
+Game_char = 'Ranger'
+game_char = 'Ranger'
+__init__()
+self
+class ClassName:
+"""Docstring"""
+class ClassName:
+__init__()
+def __init__(self):
+# Initialize attributes
+class ClassName:
+class_attr_1 = [value]
+class_attr_2 = [value]
+def __init__(self):
+instance_attr_1 = [value]
+instance_attr_2 = [value]
+instance_attr_3 = [value]
+class ClassName:
+def __init__(self):
+instance_attr_1 = [value]
+instance_attr_2 = [value]
+instance_attr_3 = [value]
+def method_1(self, val1, val2):
+# Access/change attributes
+def method_2(self):
+# Access/change attributes
+instance_1 = ClassName()
+instance_1.instance_attr_1 = [new value]
+instance_2 = ClassName()
+instance_2.method_2()
+class ClassName:
+# Other methods
+def __mul__(self, other):
+return ClassName(self.instance_attr_3 *
+other.instance_attr_3)
+from class_module import ClassName as ClassAlias
+5! = 5 * 4 * 3 * 2 * 1
+n:n! = n * (n - 1) * (n - 2) * . . . * 1
+n n! = n * (n - 1)!
+n n - 1 n
+n - 1 (n - 1)! = 1! 1! = 1
+1 + 2 + 3 + . . . + (n - 1) + n n
+n
+factorial()
+n factorial() n - 1
+n
+n
+factorial() n
+n > 1 factorial() n - 1 n ==
+1 1! 1 n == 1
+0! 1 n == 0 factorial() n < 1
+rec_fact()
+rec_fact() n = 17
+def rec_fact(n):
+return n * rec_fact(n - 1)
+355687428096000
+0
+def rec_fact(n):
+if n < 0:
+print("error")
+elif n == 0:
+return n
+else:
+return n * rec_fact(n - 1)
+355687428096000
+0
+def rec_fact(n):
+if n < 0:
+print("error")
+elif n == 0:
+return 1
+else:
+return n * rec_fact(n - 1)
+355687428096000
+0
+def rec_fact(n):
+if n < 0:
+return -1
+else:
+return n * rec_fact(n - 1)
+355687428096000
+0
+n
+count()
+palindrome()
+madamm
+madaM
+madame
+palindrome() if len(word) == 1:
+palindrome() if
+palindrome(word.strip(word[0]))
+"madamm"
+count() 0
+list_num = [1, 3, 3, 4] list_num.count(3) 2
+permu_check()
+list_num = [1, 7, 99, 2]
+other_list = [99, 7, 1, 2]
+True
+False
+list_num = [22, 9, 15, 17, 15]
+other_list = [17, 9, 22, 22, 15]
+True
+False
+honors_list = ["Bo", "Joe", "Sandy"]
+first_names_of_team_1 = ["Sandy", "Bo", "Joe"]
+True
+False
+this_list = [1, 2, [3], [4], 5]
+that_list = [[3], 1, 5, [4], 2]
+True
+False
+list_1 = [1, 2, 3]
+list_2 = [1, 2, 3]
+True
+False
+rem_dup()
+[5, 5, 2, 1, 3, 1, 6] [5, 2, 1, 3, 6]
+fib(n) = fib(n - 1) + fib(n - 2)
+f(0) = 0 f(1) = 1
+n = 5
+n
+""" Recursive Fibonacci function """
+def fib(n):
+# Base case
+if n == 0 or n == 1:
+return n
+# Recursive case
+elif n > 1:
+return fib(n - 1) + fib(n - 2)
+# Error case
+else:
+print("Fibonacci numbers begin at 0.")
+return
+# Test code
+print(fib(7))
+13
+fib(9)
+13
+21
+34
+fib(5)
+""" Find GCD using recursive implementation of Euclid's method """
+def gcd(a, b):
+if a == b: # Base case
+return a
+elif a < b: # Recursive case
+return gcd(a, b - a)
+else:
+return gcd(a - b, a)
+# Test code
+print(gcd(24, 30))
+6
+gcd(24, 30)
+gcd(13, 23)
+power() x y power(x, y)
+x y
+power(3, 4) 81
+recursive rec_pow() x y x y
+y
+y
+rec_pow(2, -4) 0.0625
+""" Binary Search """
+def binary_search(search_list, low, high, key):
+# Check base case
+if high > low:
+mid = (high + low) // 2
+# If element is present at the middle itself (base case)
+if search_list[mid] == key:
+return mid
+# Recursive case: check which subarray must be checked
+# Right subarray
+elif key > search_list[mid]:
+return binary_search(search_list, mid + 1, high, key)
+# Left subarray
+else:
+return binary_search(search_list, low, mid - 1, key)
+else:
+# Key not found (other base case)
+return "Not found"
+# Test list
+in_list = [1, 3, 13, 16, 19, 22, 27, 32, 48, 66, 78, 99, 111, 122]
+# Call binary search function
+print(binary_search(in_list, 0, len(in_list)-1, 48)) # Key exists at index 8
+print(binary_search(in_list, 0, len(in_list)-1, 86)) # Key does not exist
+8
+Not found
+[5, 2, 7, 1, 8]
+[9, 8, 7, 6, 5]
+[4, 5, 6, 7, 8]
+binary_search() low = 4 high = 7 mid
+5
+6
+11
+binary_search()
+binary_search() 86
+""" Solving the towers problem recursively """
+def three_towers(N, source_tower, dest_tower, temp_tower):
+# Base case: simply move the single(bottom) ring from source to destination
+tower
+if N==1:
+print("Move ring 1 from tower", source_tower, "to tower", dest_tower)
+return # Exit when the base case is reached
+# Recursive case
+# Call the smaller version of the problem:
+# to move the N-1 stack to the middle tower
+three_towers(N-1, source_tower, temp_tower, dest_tower)
+# Move the N ring to the destination tower
+print("Move ring", N, "from tower", source_tower, "to tower", dest_tower)
+# Call the smaller version of the problem:
+# to now move the N-1 stack from the middle tower
+# to the destination
+three_towers(N-1, temp_tower, dest_tower, source_tower)
+# Test code
+print("Solution for 3 rings:")
+three_towers(3, 't1', 't3', 't2') # t1, t2, t3 are the towers
+Solution for 3 rings:
+Move ring 1 from tower t1 to tower t3
+Move ring 2 from tower t1 to tower t2
+Move ring 1 from tower t3 to tower t2
+Move ring 3 from tower t1 to tower t3
+Move ring 1 from tower t2 to tower t1
+Move ring 2 from tower t2 to tower t3
+Move ring 1 from tower t1 to tower t3
+three_towers()
+print_H_T() "H"
+"T"
+HHH
+HHT
+HTH
+HTT
+THH
+THT
+TTH
+TTT
+count()
+count()
+count(element)
+Daffodil Plant
+Doughnut Pastry
+Kitchen Freezer
+class SuperClass:
+# SuperClass attributes and methods
+class SubClass(SuperClass):
+# SubClass attributes and methods
+Daisy Plant
+class Plant(Daisy):
+class Daisy(Plant):
+class Daisy:
+class Plant:
+small_bag = CarryOn()
+small_bag = Luggage(CarryOn)
+small_bag = CarryOn(Luggage)
+SuperClass SubClass SubClass
+class SuperClass():
+def func_1(self):
+print('Superclass function')
+class SubClass(SuperClass):
+def func_2(self):
+print('Subclass function')
+func_1()
+func_2()
+func_1() func_2()
+SuperClass SubClass
+class SuperClass():
+def func_1(self):
+print('Superclass function')
+class SubClass(SuperClass):
+def func_2(self):
+print('Subclass function')
+func_1()
+func_2()
+func_1() func_2()
+Employee Developer Employee Developer
+update_codebase() "Employee has updated the codebase"
+Developer python_dev print_company() update_codebase()
+Polygon Rectangle Square
+Polygon p_disp() "object is a Polygon"
+Rectangle Polygon r_disp() "object is a
+Rectangle"
+Square Rectangle s_disp() "object is a
+Square"
+__init__()
+__init__()
+__init__()
+Employee Developer dev_1.e_id
+1
+2
+Error
+SubClass()
+1 class SuperClass:
+2 def __init__(self):
+3 self.feat_1 = 1
+4 self.feat_2 = ""
+5
+6 def bc_display(self):
+7 print(f"Superclass: {self.feat_2}")
+8
+9 class SubClass(SuperClass):
+10 def dc_display(self):
+11 print(f"Subclass: {self.feat_2}")
+12
+13 dc_1 = SubClass()
+Error
+dc_1
+class SuperClass:
+def __init__(self):
+self.feat_1 = 1
+self.feat_2 = ""
+def bc_display(self):
+print(f"Superclass: {self.feat_2}")
+class SubClass(SuperClass):
+def dc_display(self):
+print(f"Subclass: {self.feat_2}")
+dc_1 = SubClass()
+feat_2
+feat_1 feat_2
+__init__()
+Employee Developer
+class Employee:
+count = 0
+def __init__(self):
+Employee.count += 1
+self.e_id = Employee.count
+self.hire_year = 2023
+def emp_display(self):
+print(f"Employee {self.e_id} hired in {self.hire_year}")
+class Developer(Employee):
+def __init__(self):
+Employee.count += 1
+self.e_id = Employee.count
+self.hire_year = 2023
+self.lang_xp = ["Python", "C++", "Java"]
+def dev_display(self):
+print(f"Proficient in {self.lang_xp}")
+emp_1 = Employee()
+dev_1 = Developer()
+dev_1.dev_display()
+Employee 2 hired in 2023
+Proficient in ['Python', 'C++', 'Java']
+Error
+emp_1.dev_display()
+Employee 1 hired in 2023
+Proficient in ['Python', 'C++', 'Java']
+Error
+dev_display()
+dev_1.dev_display() Employee 2 proficient in ['Python',
+'C++', 'Java'] new print() dev_display()
+print(f"Employee {self.e_id} proficient in {self.lang_xp}")
+print(f"Employee {self.Employee.e_id} proficient in {self.lang_xp}")
+print(f"Employee 2 proficient in {self.lang_xp}")
+Dessert Cupcake Dessert Cupcake
+__init__(self)
+display(self)
+display() Cupcake
+Made with ["butter", "sugar", "eggs", "flour"] and topped with buttercream
+frosting
+super()
+Mint
+Plant
+ContractTax Tax Tax'
+calc_tax()
+calc_tax() Tax
+calc_tax() ContractTax
+ContractTax
+calc_tax() ContractTaxDE
+class Tax:
+def calc_tax(self):
+print('Calculating tax')
+class ContractTax(Tax):
+def calc_tax(self):
+print('Calculating contract tax')
+class ContractTaxDE(ContractTax):
+def calc_tax():
+print('Calculating German contract tax')
+my_tax = ContractTaxDE()
+my_tax.calc_tax()
+ContractTaxDE Tax ContractTax
+ContractTaxDE's calc_tax()
+ContractTaxDE calc_tax() ContractTax
+calc_tax()
+class Tax:
+def calc_tax(self):
+print('Calculating tax')
+total = 0 # To replace with calculation
+return total
+class ContractTax:
+def calc_tax(self):
+print('Calculating contract tax')
+total = 0 # To replace with calculation
+return total
+my_tax = ContractTax()
+my_tax.calc_tax()
+Tax calc_tax()
+ContractTax Tax
+super()
+super() super()
+__init__() super().__init__()
+1 class Polygon:
+2 def __init__(self, num_sides=3):
+3 self.num_sides = num_sides
+4
+5 class Rectangle(Polygon):
+6 def __init__(self, ln=1, wd=1):
+7 super().__init__(4)
+8 self.length = ln
+9 self.width = wd
+10
+11 class Square(Rectangle):
+12 def __init__(self, side=1):
+13 super().__init__(side, side)
+14 self.side = side
+15
+16 sq_1 = Square(5)
+17 print(sq_1.num_sides)
+Square __init__()
+__init__()
+Rectangle'
+__init__()
+Square' __init__()
+3
+4
+5
+display()
+display()
+class Plant:
+def display(self):
+print("I'm a plant")
+class Mint(Plant):
+def display(self):
+print("I'm a mint")
+class Lavender(Mint):
+def display(self):
+print("I'm a lavender")
+mint_1 = Mint()
+mint_1.display()
+lavender_1 = Lavender()
+lavender_1.display()
+I'm a mint
+I'm a lavender
+Tax ContractTax calc_tax() calc_tax()
+ContractTax Tax
+class Tax:
+def __init__(self, value):
+self.value = value
+def calc_tax(self):
+print("Calculating tax")
+total = 0.10 * self.value # To replace with calculation
+return total
+class ContractTax:
+def __init__(self, value):
+self.value = value
+def calc_tax(self):
+print("Calculating contracts tax")
+total = 0.15 * self.value # To replace with calculation
+return total
+my_tax = ContractTax(value=1000) # Replace 1000 with any value
+result = my_tax.calc_tax()
+print(f"Total tax: ${result}")
+Calculating contracts tax
+Total tax: $150.00
+len()
+tree_list = ["ash", "hazel", "oak", "yew"]
+tree_1 = tree_list[0]
+print(len(tree_list))
+print(len(tree_1))
+4
+3
+class Polygon:
+def print_type(self):
+print("Polygon type")
+class Rectangle(Polygon):
+def print_type(self):
+print("Rectangle type")
+class Square(Rectangle):
+def print_type(self):
+print("Square type")
+sq_1 = Square()
+sq_1.print_type()
+Polygon type
+Rectangle type
+Square type
+x = 3 * 4
+y = 3 * "la"
+x = 3 * 4
+y = str(x)
+x = 3 * 4
+y = x * x
+Pet Bird Pet Finch Bird
+display() Bird Finch
+Pet type: Bird
+Bird type: Finch
+Employee Developer Employee __init__()
+print_info()
+__init__()
+super() Employee' __init__() e_id hire_year
+lang_xp lang_xp
+print_info()
+super() e_id hire_year
+"Language(s):" lang_xp
+Cat Dog Bird
+Employee Developer SalesRep
+Dessert BakedGood ApplePie
+class ChoirMember:
+def display(self):
+print("Current choir member")
+class Soprano(ChoirMember):
+def display(self):
+super().display()
+print("Part: Soprano")
+class Soprano1(Soprano):
+def display(self):
+super().display()
+print("Division: Soprano 1")
+class Alto(ChoirMember):
+def display(self):
+super().display()
+print("Part: Alto")
+class Tenor(ChoirMember):
+def display(self):
+super().display()
+print("Part: Tenor")
+class Bass(ChoirMember):
+def display(self):
+super().display()
+print("Part: Bass")
+mem_10 = Alto()
+mem_13 = Tenor()
+mem_15 = Soprano1()
+mem_10.display()
+print()
+mem_13.display()
+print()
+mem_15.display()
+Current choir member
+Part: Alto
+Current choir member
+Part: Tenor
+Current choir member
+Part: Soprano
+Division: Soprano 1
+class A:
+def __init__(self, a_attr=0):
+self.a_attr = a_attr
+class B(A):
+def __init__(self, a_attr=0, b_attr=0):
+super().__init__(a_attr)
+self.b_attr = b_attr
+class C(A):
+def __init__(self, a_attr=0, c_attr=0):
+super().__init__(a_attr)
+self.c_attr = c_attr
+class D(B):
+def __init__(self, a_attr=0, b_attr=0, d_attr=0):
+super().__init__(a_attr, b_attr)
+self.d_attr = d_attr
+b_inst = B(2)
+c_inst = C(c_attr=4)
+d_inst = D(6, 7)
+b_inst.b_attr
+0
+2
+Error
+c_inst
+a_attr
+a_attr c_attr
+c_attr
+d_inst
+b_attr d_attr
+a_attr b_attr d_attr
+d_attr
+Instrument Woodwind String
+Instrument owner
+Woodwind Instrument material
+String Instrument num_strings
+This flute belongs to unknown and is made of silver
+This cello belongs to Bea and has 4 strings
+class
+SubClass(SuperClass_1, SuperClass_2)
+class A:
+def __init__(self, a_attr=2):
+self.a_attr = a_attr
+class B:
+def __init__(self, b_attr=4):
+self.b_attr = b_attr
+class C(A, B):
+def __init__(self, a_attr=5, b_attr=10, c_attr=20):
+A.__init__(self, a_attr)
+B.__init__(self, b_attr)
+self.c_attr = c_attr
+b_inst = B(2)
+c_inst = C(1, 2)
+c_inst.a_attr
+1
+5
+Error
+c_inst.c_attr
+2
+20
+Error
+b_inst.a_attr
+2
+4
+Error
+Dessert BakedGood Food
+ApplePie Dessert BakedGood
+Dessert BakedGood Food Food
+ApplePie
+MyMixin my_inst = MyMixin()
+Rose Pitcher VenusFlyTrap
+Pitcher VenusFlyTrap
+class Plant:
+def photosynth(self):
+print("Photosynthesizing")
+def eat(self):
+print("Eating")
+class Rose(Plant):
+pass
+class Pitcher(Plant):
+pass
+class VenusFlyTrap(Plant):
+pass
+eat()
+Plant
+class Plant:
+def photosynth(self):
+print("Photosynthesizing")
+class Rose(Plant):
+pass
+class Pitcher(Plant):
+def eat(self):
+print("Eating")
+class VenusFlyTrap(Plant)
+def eat(self):
+print("Eating")
+photosynth() Rose
+eat()
+eat()
+X
+class Plant:
+def photosynth(self):
+print("Photosynthesizing")
+class X:
+def eat(self):
+print("Eating")
+class Rose(Plant):
+pass
+class Pitcher(Plant, X):
+pass
+class VenusFlyTrap(Plant, X)
+pass
+CarnivClass
+CarnivMixin
+OnlineMixin OnlineMixin
+OnlineShop
+FoodFast
+process_online() "Connecting to server"
+FoodFast' process_order()
+Processing meal order
+Connecting to server
+Enjoy your FoodFast order
+super()
+class SuperClass:
+pass
+class SubClass(SuperClass):
+pass
+class SubClass(SuperClass):
+__init__()
+def __init__(self):
+super() super().__init__() # Calls superclass
+__init__()
+# Initialize subclass instance attributes
+class SuperClass:
+def display(self):
+print('Superclass method')
+class SubClass(SuperClass):
+def display(self): # Same name as superclass
+method
+print('Subclass method')
+class SuperClass:
+def display(self):
+print('Superclass method')
+class SubClass1(SuperClass):
+def display(self):
+print('Subclass 1 method ')
+class SubClass2(SuperClass):
+def display(self):
+print('Subclass 2 method')
+class SubClass3(SuperClass):
+def display(self):
+print('Subclass 3 method')
+class SuperClass1:
+pass
+class SuperClass2:
+pass
+class SubClass(SuperClass1, SuperClass2):
+pass
+open()
+read() readline() readlines()
+open()
+open("firstfile")
+open("firstfile.txt")
+fileobj = open("firstfile.txt")
+open("input.txt")
+Error
+fileobj = open("newfile.txt")
+print(fileobj)
+Error
+fileobj
+read()
+read()
+readline()
+readlines()
+12
+55
+5
+91
+"""Demonstrating read() and readlines()"""
+# Using read()
+# Open the file and associate with a file object
+infile = open("input.txt")
+# Read the contents of the file into a string
+str1 = infile.read()
+# Print str1
+print("Result of using read():")
+print(str1)
+# Always close the file once done using the file
+infile.close()
+# Using read()
+# Open the file and associate with a file object
+infile2 = open("input.txt")
+# Read the contents of the file into a string list
+str_list = infile2.readlines()
+# Printing the third item in the string list.
+print("Result of using readlines() and printing the third item in the string
+list:")
+print(str_list[2])
+# Always close the file once done using the file
+infile2.close()
+Result of using read():
+12
+55
+5
+91
+Result of using readlines() printing the third item in the string list:
+5
+fileobj = open("input.txt")
+Hello world!
+How are you?
+read()
+file_str
+file_str = read(fileobj)
+file_str = read("input.txt")
+file_str = fileobj.read()
+readlines()
+file_lines = readlines(fileobj)
+file_lines = fileobj.readlines()
+print(fileobj.readline())
+Error
+n: 5
+25
+13
+4
+6
+19
+write()
+open()
+open("output.txt", 'w')
+fileobj =
+open("input.txt")
+'r'
+fileobj =
+open("input.txt",
+'r')
+fileobj =
+'w' open("output.txt",
+'w')
+fileobj =
+'a'
+open("log.txt", 'a')
+open()
+logfile = open("logfile.txt")
+logfile = open("logfile.txt", 'w')
+logfile = open("logfile.txt", 'a')
+infile = open("logfile.txt")
+infile = open("logfile.txt", 'w')
+infile = open("logfile.txt", 'a')
+logfile = open("newlog.txt")
+logfile = open("newlog.txt", 'w')
+logfile = open("newlog.txt", 'a')
+write() close()
+write() write()
+write()
+write() print()
+('\n')
+write()
+close() close()
+"""Operations for writing and appending to files."""
+# Create a new file
+opfile = open("output.txt", 'w')
+# Writing to the file
+opfile.write("Writing to a new file.")
+# To add another line the newline character must be used
+opfile.write("\nSecond line.")
+# Ensure changes are saved by closing the file
+opfile.close()
+# Read and display the contents of the file
+infile = open("output.txt")
+print("\nRead the original file:\n")
+print(infile.read())
+infile.close()
+# Reopen the file in append mode to add to the file
+opfile = open("output.txt", 'a')
+# Note the use of newline characters
+opfile.write("\nAdding to the file.")
+opfile.write("\nAdding another line.")
+# Ensure changes are saved by closing the file
+opfile.close()
+# Read and display the contents of the modified file
+infile = open("output.txt")
+print("\nRead the modified file:\n")
+print(infile.read())
+infile.close()
+Read the original file:
+Writing to a new file.
+Second line.
+Read the modified file:
+Writing to a new file.
+Second line.
+Adding to the file.
+Adding another line.
+outfile = open("resources.txt", 'w')
+outfile.write("new content")
+"new content"
+outfile = open("resources.txt", 'w')
+outfile.write("new content")
+outfile.close()
+"new content"
+"new content"
+outfile = open("resources.txt", 'a')
+outfile.write("new content")
+outfile.close()
+"new content"
+"new content"
+close()
+open()
+fileobj = open("file1.txt")
+/users/turtle/desktop
+fileobj = open("/users/turtle/desktop/logfile.log")
+open()
+/users/student/ fileobj = open("/users/student/output.txt")
+/usr/code/ fileobj = open("/usr/code/output.txt")
+fileobj = open("c:/projects/code/output.txt")
+c:\projects\
+code\ fileobj =
+open("c:\\projects\\code\\output.txt")
+open()
+open()
+/users/turtle/files
+fileobj = open("out.txt")
+fileobj = open("/users/turtle/files/out.txt")
+fileobj = open("/users/turtle/files/out.txt", 'w')
+c:\documents\
+fileobj = open("out.txt")
+fileobj = open("c:/documents/out.txt", 'a')
+fileobj = open("c:/documents/out.txt")
+/users/turtle/logs
+fileobj = open("out.txt")
+fileobj = open("/users/turtle/logs/out.txt")
+fileobj = open("/users/turtle/logs/out.txt", 'w')
+c:\proj\assets
+fileobj = open("c:\\proj\\assets\\out.txt", 'a')
+fileobj = open("c:\proj\assets\out.txt", 'a')
+\n
+Title, Author, Pages\n1984, George Orwell, 268\nJane Eyre, Charlotte Bronte,
+532\nWalden, Henry David Thoreau, 156\nMoby Dick, Herman Melville, 538
+"""Processing a CSV file."""
+# Open the CSV file for reading
+file_obj = open("books.csv")
+# Rows are separated by newline \n characters, so readlines() can be used to
+read in all rows into a string list
+csv_rows = file_obj.readlines()
+list_csv = []
+# Remove \n characters from each row and split by comma and save into a 2D
+structure
+for row in csv_rows:
+# Remove \n character
+row = row.strip("\n")
+# Split using commas
+cells = row.split(",")
+list_csv.append(cells)
+# Print result
+print(list_csv)
+[['Title', ' Author', ' Pages'], ['1984', ' George Orwell', ' 268'], ['Jane
+Eyre', ' Charlotte Bronte', ' 532'], ['Walden', ' Henry David Thoreau', ' 156'],
+['Moby Dick', ' Herman Melville', ' 538']]
+readlines()
+readlines() \n
+readlines()
+readlines()
+print(list_csv[1][2])
+532
+268
+Jane Eyre
+file_obj = open("books.csv")
+csv_read = file_obj.readline()
+print(csv_read)
+['Title, Author, Pages\n', '1984, George Orwell, 268\n', 'Jane Eyre,
+Charlotte Bronte, 532\n', 'Walden, Henry David Thoreau, 156\n', 'Moby Dick,
+Herman Melville, 538']
+[['Title', ' Author', ' Pages'], ['1984', ' George Orwell', ' 268'], ['Jane
+Eyre', ' Charlotte Bronte', ' 532'], ['Walden', ' Henry David Thoreau', '
+156'], ['Moby Dick', ' Herman Melville', ' 538']]
+Title, Author, Pages
+try except
+FileNotFoundError
+IndexError ValueError
+5 sandwiches
+4 chips
+1 pickle
+soft drinks
+for line in open("food_order.txt"):
+space = line.index(" ")
+qty = int(line[:space])
+item = line[space+1:-1]
+print(qty, item)
+"soft drinks"
+Traceback (most recent call last):
+File "food_order.py", line 3
+qty = int(line[:space])
+ValueError: invalid literal for int() with base 10: 'soft'
+"soft drinks" "3-4 soft drinks"
+FileNotFoundError
+IndexError
+ValueError
+for line in open("food_order.text"):
+FileNotFoundError
+IndexError
+ValueError
+parts = line.split()
+qty = parts[0]
+item = parts[1]
+FileNotFoundError
+IndexError
+ValueError
+except
+name = input("Enter a filename: ")
+try:
+file = open(name)
+lines = file.readlines()
+count = len(lines)
+print(name, "has", count, "lines")
+except FileNotFoundError:
+print("File not found:", name)
+print("Have a nice day!")
+Enter a filename: try_open.py
+try_open.py has 9 lines
+Have a nice day!
+FileNotFoundError
+except
+Enter a filename: try_open.txt
+File not found: try_open.txt
+Have a nice day!
+word = "one"
+try:
+number = int(word)
+print(word, "equals", number)
+except ValueError:
+print(word, "is not a number")
+one equals 1
+one is not a number
+ValueError: invalid literal for int() with base 10: 'one'
+word = "one"
+try:
+number = int(word)
+print(word, "equals", number)
+except IndexError:
+print(word, "is not a number")
+one equals 1
+one is not a number
+ValueError: invalid literal for int() with base 10: 'one'
+word = "one"
+try:
+char = word[3]
+print("The char is", char)
+except:
+print("That didn't work")
+The char is e
+That didn't work
+IndexError: string index out of range
+"123.45"
+ValueError
+ValueError
+get_type() get_type()
+get_type() "int" "float" "str"
+str: Hello
+int: 100
+str: times!
+float: 3.14159
+str: is
+str: pi.
+United
+Enter a filename: countries.csv
+United Arab Emirates,9890402,83600,118
+United Kingdom,67886011,241930,281
+United States of America,331002651,9147420,36
+Enter a word: United
+Enter a filename: countries.csv
+United Arab Emirates,9890402,83600,118
+United Kingdom,67886011,241930,281
+United States of America,331002651,9147420,36
+countries
+File not found: countries
+Enter a filename: countries.txt
+File not found: countries.txt
+Enter a filename: countries.csv
+...
+...
+Enter a filename: countries
+File not found: countries
+Enter a filename: countries.txt
+File not found: countries.txt
+Enter a filename: countries.csv
+...
+FileNotFoundError
+raise
+try except
+SIZES
+ValueError
+1 class Pizza:
+2
+3 SIZES = {
+4 "S": ("Small", 5.99),
+5 "M": ("Medium", 7.99),
+6 "L": ("Large", 9.99),
+7 "XL": ("X-Large", 11.99),
+8 }
+9
+10 def __init__(self, size):
+11 if size not in Pizza.SIZES:
+12 raise ValueError(f"Unknown size '{size}'")
+13 self.size = size
+14
+15 def __str__(self):
+16 name, price = Pizza.SIZES[self.size]
+17 return f"{name} pizza for ${price}"
+18
+19 if __name__ == "__main__":
+20 p1 = Pizza("L")
+21 print(p1)
+22 p2 = Pizza("Z")
+23 print(p2)
+Large pizza for $9.99
+Traceback (most recent call last):
+File "pizza.py", line 23, in <module>
+p2 = Pizza("Z")
+File "pizza.py", line 12, in __init__
+raise ValueError(f"Unknown size '{size}'")
+ValueError: Unknown size 'Z'
+p1
+p2
+p3 = Pizza("M")
+print(p3)
+Medium pizza for $7.99
+ValueError: Unknown size 'M'
+TypeError: missing argument
+raise PizzaError("Invalid size")
+Invalid size
+PizzaError: Invalid size
+NameError: name 'PizzaError' is not defined
+raise ValueError
+ValueError
+NameError: name 'ValueError' is not defined
+SyntaxError: Missing parenthesis in call to 'ValueError'
+Language
+ValueError
+ValueError IndexError
+fruit = {"apple": 1,
+"banana": 2} fruit["Apple"] KeyError "Apple"
+"apple" fruit["NANA"] KeyError "nana" "banana"
+lookup()
+"banana" "NANA"
+lookup() KeyError "search term not
+found" lookup() KeyError "multiple
+keys found" lookup()
+Found: ('Pride and Prejudice', 9780141439518)
+Found: ('The Hobbit', 9780547928227)
+Error: search term not found
+Error: multiple keys found
+open()
+try except
+file =
+open("myfile.txt")
+file =
+open("myfile.txt",
+'w')
+file =
+open("myfile.txt",
+'a')
+file.close()
+data = file.read() data
+data =
+data
+file.readline()
+data =
+data
+file.readlines()
+file.write("Have a print() write()
+nice day!\n")
+file.write(["Line write()
+1\n", "Line 2\n"])
+try:
+# Statements
+except:
+# Statements
+try:
+ValueError ValueError
+# Statements
+except ValueError:
+# Statements
+try:
+ValueError ValueError
+# Statements
+err
+except ValueError
+ValueError
+as err:
+# Statements
+ValueError
+raise ValueError
+raise
+ValueError "number is prime"
+ValueError("number
+is prime")
+np import numpy as np
+ndarray
+ndarray
+ndarray np.array()
+np.zeros() np.ones()
+np.random.rand(n, m) n m
+np.genfromtxt('data.csv', delimiter=',')
+ndarray
+np.array([2, 3])
+np.zeros(1, 2)
+np.zeros((1, 2))
+ndarray
+list
+array
+ndarray
+ndarray
+import numpy as np
+arr = np.array([[1, 2], [3, 4]])
+out = 2 * arr
+print(out)
+[[2 4]
+[8 16]]
+[[2 4]
+[6 8]]
+[[1 2]
+[3 4]]
+ndarray
+import numpy as np
+arr = np.array(2, 3)
+import numpy as np
+arr = np.array([[1, 2], [1, 2], [1, 2]])
+import numpy as np
+arr = np.array([[1, 2], [1, 2], [1, 2]]).T
+np.multiply(arr1, arr2) ndarray arr1 arr2
+import numpy as np
+arr1 = np.array([[1, 2], [3, 4]])
+arr2 = np.array([[1, 0], [0, 1]])
+out = np.multiply(arr1, arr2)
+print(out)
+[[1 0]
+[0 4]]
+[[1 2]
+[3 4]]
+[[2 2]
+[3 5]]
+◦
+◦
+pd import pandas as
+pd
+import pandas as pd
+# Create a dictionary of
+columns
+data = { pd.DataFrame()
+"Name": ["Emma",
+"Gireeja", "Sophia"],
+"Age": [15, 28, 22],
+"City": ["Dubai",
+"London", "San Jose"]
+}
+# Create a DataFrame from
+the dictionary
+df = pd.DataFrame(data)
+# Display the DataFrame
+df
+import pandas as pd
+# Create a list of rows
+data = [
+["Emma", 15, "Dubai"],
+["Gireeja", 28, pd.DataFrame()
+"London"],
+["Sophia", 22, "San
+Jose"]
+]
+# Define column labels
+columns = ["Name", "Age",
+"City"]
+# Create a DataFrame from
+list using column labels
+df = pd.DataFrame(data,
+columns=columns)
+# Display the DataFrame
+df
+import numpy as np
+import pandas as pd
+# Create a NumPy array
+data = np.array([
+[1, 0, 0],
+[0, 1, 0],
+[2, 3, 4]
+])
+# Define column labels pd.DataFrame()
+columns = ["A", "B", "C"]
+# Create a DataFrame from
+the NumPy array
+df = pd.DataFrame(data,
+columns=columns)
+# Display the DataFrame
+df
+import pandas as pd
+pd.read_csv()
+# Read the CSV file into a
+DataFrame
+df =
+pd.read_csv("data.csv")
+# Display the DataFrame
+df
+import pandas as pd
+pd.read_excel()
+# Read the Excel file into
+a DataFrame
+df =
+pd.read_excel("data.xlsx")
+# Display the DataFrame
+df
+import pandas as pd
+import numpy as np
+# Create a sample DataFrame
+days = {
+'Season': ['Summer', 'Summer', 'Fall', 'Winter', 'Fall', 'Winter'],
+'Month': ['July', 'June', 'September', 'January', 'October', 'February'],
+'Month-day': [1, 12, 3, 7, 20, 28],
+'Year': [2000, 1990, 2020, 1998, 2001, 2022]
+}
+df = pd.DataFrame(days)
+n
+head(n) df.head(4)
+n
+tail(n) df.tail(3)
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 6 entries, 0 to 5
+Data columns (total 4 columns):
+# Column Non-Null Count Dtype
+--- ------ -------------- -----
+0 Season 6 non-
+info() df.info()
+null object
+1 Month 6 non-
+null object
+2 Month-day 6 non-null int64
+3 Year 6 non-null int64
+dtypes: int64(2), object(2)
+memory usage: 320.0+ bytes
+describe() df.describe()
+Season
+df.value_counts Fall 2
+value_counts()
+\('Season') Summer 2
+Winter 2
+dtype: int64
+df['Season']
+unique() ['Summer' 'Fall' 'Winter']
+\.unique()
+df.head()
+df.head(5)
+unique()
+describe()
+info()
+unique()
+Null
+Null
+loc[]
+df.loc[row_label, column_label] row_label
+column_label
+iloc[]
+df.iloc[row_index,
+column_index] row_index column_index
+import pandas as pd
+# Create sample data
+data = {
+"A": ["a", "b", "c", "d"],
+"B": [12, 20, 5, -10],
+"C": ["C", "C", "C", "C"]
+}
+df = pd.DataFrame(data)
+print(df.iloc[0, 0])
+a
+b
+IndexError
+print(df.iloc[1, 1])
+a
+b
+20
+print(df.loc[2, 'A'])
+c
+C
+b
+df.loc[start_row:end_row, start_column:end_column]
+df.loc[[label1, label2, ...], :] [label1,
+label2, ...]
+df[condition] condition
+df[df['column_name'] > threshold] df []
+df['column_name'] > threshold df
+True
+import pandas as pd
+# Create sample data
+data = {
+"A": [1, 2, 3, 4],
+"B": [5, 6, 7, 8],
+"C": [9, 10, 11, 12]
+}
+df = pd.DataFrame(data)
+df.loc[1:3, "A"]
+df.loc[0:2, "A"]
+df.loc[0:3, "A"]
+df.iloc[2]
+df[2]
+df.loc[1]
+df.loc[0, :]
+df.iloc[:, 0]
+df.loc["A"]
+df[df.loc[:, "A"] % 2 == 0]
+df[df[:, "A"] % 2 == 0]
+df[df.loc["A"] % 2 == 0]
+isnull() isnull()
+True
+dropna() dropna() Null
+fillna() fillna() Null
+df.fillna(df.mean()) Null
+Null np.nan
+import pandas as pd
+import numpy as np
+# Create sample data
+data = {
+"Column 1": ["A", "B", "C", "D", "E"],
+"Column 2": [np.NAN, 200, 500, 0, -10],
+"Column 3": [True, True, False, np.NaN, np.NaN]
+}
+df = pd.DataFrame(data)
+df.isnull()
+isnull()
+df.isnull()
+Null
+Null
+df["Column 2"] =\
+Column 2
+df["Column
+fillna()
+2"].fillna(df["Column
+Null
+2"]
+.mean())
+# Applied after the
+Null
+dropna() run
+# of the previous row
+df = df.dropna()
+Null
+isnan()
+isnull()
+isnone()
+df Null
+df.fillna(0)
+df.replacena(0)
+df.fill(0)
+df df.isnull().sum()
+Null
+Null
+Null
+Matplotlib
+plt.bar(x, height) x height
+x height
+import
+matplotlib.pyplot as
+plt
+# Data
+categories = ["Course
+A", "Course B", "Course
+C"]
+values = [25, 40, 30]
+# Create the bar chart
+fig =
+plt.bar(categories,
+values)
+# Customize the chart
+plt.title("Number of
+students in each
+course')
+plt.xlabel("Courses")
+plt.ylabel("Number of
+students")
+# Display the chart
+plt.show()
+plt.plot(x, y) x y
+(x, y)
+import matplotlib.pyplot
+as plt
+# Data
+month = ["Jan", "Feb",
+"Mar", "Apr", "May"]
+inflation = [6.41, 6.04,
+4.99, 4.93, 4.05]
+# Create the line chart
+plt.plot(month, inflation,
+marker="o",
+linestyle="-",
+color="blue")
+# Customize the chart
+plt.title("Inflation trend
+in 2023")
+plt.xlabel("Month")
+plt.ylabel("Inflation")
+# Display the chart
+plt.show()
+plt.scatter(x, y) x y
+(x, y)
+import matplotlib.pyplot
+as plt
+# Data
+x = [1, 2, 3, 4, 5, 6, 7,
+8, 9, 10]
+y = [10, 8, 6, 4, 2, 5, 7,
+9, 3, 1]
+# Create the scatter plot
+plt.scatter(x, y,
+marker="o", color="blue")
+# Customize the chart
+plt.title("Scatter Plot
+Example")
+plt.xlabel("X")
+plt.ylabel("Y")
+# Display the chart
+plt.show()
+plt.hist(x) x
+x
+import matplotlib.pyplot
+as plt
+import numpy as np
+# Data: random 1000
+samples
+data =
+np.random.randn(1000)
+# Create the histogram
+plt.hist(data, bins=30,
+edgecolor="black")
+# Customize the chart
+plt.title("Histogram of
+random values")
+plt.xlabel("Values")
+plt.ylabel("Frequency")
+# Display the chart
+plt.show()
+plt.boxplot(x) x
+x
+import
+matplotlib.pyplot
+as plt
+import numpy as np
+# Data: random 100
+samples
+data =
+[np.random.normal(0,
+5, 100)]
+# Create the box
+plot
+plt.boxplot(data)
+# Customize the
+chart
+plt.title("Box Plot
+of random values")
+plt.xlabel("Data
+Distribution")
+plt.ylabel("Values")
+# Display the chart
+plt.show()
+x
+y
+import matplotlib.pyplot as plt
+# Data
+x = [1, 2, 3, 4, 5]
+y = [10, 15, 12, 18, 20]
+plt.boxplot(x)
+plt.hist(y)
+plt.scatter(x, y)
+import matplotlib.pyplot as plt
+# Data
+categories = ['A', 'B', 'C', 'D']
+values = [10, 15, 12, 18]
+plt.bar(categories, values)
+ndarray
+np pd plt
+np.array() ndarray
+np.zeros()
+np.ones()
+np.random.rand(n, m) n m
+np.genfromtxt('data.csv',
+delimiter=',')
+pd.DataFrame()
+pd.read_csv()
+df.head()
+df.tail()
+df.info()
+Null
+df.describe()
+df.value_counts()
+df.unique()
+loc[]
+iloc[]
+df[condition] condition
+df.loc[start_row:end_row,
+start_column:end_column]
+df.loc[[label1, label2,
+[label1, label2, ...]
+...], :]
+df.isnull()
+Null
+fillna() Null
+dropna() Null
+x height x
+plt.bar(x, height)
+height
+x y (x,
+plt.plot(x, y)
+y)
+x y (x, y)
+plt.scatter(x, y)
+x x
+plt.hist(x)
+x
+plt.boxplot(x)
+x
+end="" Hello world!
+today_is
+print() "You entered:"
+Sophia
+"The city where you live is Chicago"
+"Total = 6"
+=
+median median
+'7 days'
+fred78@gmail.com
+email
+len() "Hi Ali"
+number_of_digits 2 "Number 12 has 2
+digits."
+1 0
+"10"
+"A" "wake"
+"Awake"
+holiday "one-sided"
+holiday
+x = 1 <class 'int'>
+y = 2.0
+c = x - z = 7 - 2 = 5 c
+3.5-1.5 2.0
+7/2 = 3.5
+20/2 10.0
+2 *
+1.5 = 3.0
+1 + 3
+-16 "-4 squared" 16
+= -
+**
+"input"
+1
+book_rating 3.5
+book_rating
+book_rating
+4.0
+x 42.0
+float()
+int()
+int(17.25) 17 1 18
+y = int(4.5) = 4
+str(4.5) "4.5"
+float(y) = float(4) = 4.0
+int(x)
+34 + 56 90
+'12' + ' red roses'
+'5.2' 7
+'3.14' '159'
+round(6.6) = 7
+round(3.5, 2) = 3.50
+round()
+round(0.1, 1) 0.1 0.1
+round()
+abs() abs()
+math.sqrt()
+b**2 4*a*c -
+"is" "a"
+"Hello," name +
+"Happy "
+y !
+s[0] "P"
+chr()
+\n print("Enter\nhere")
+says
+02d
+".2f"
+10 9.7
+2 3
+len(name_list)-1
+3
+2
+"a" "b" "c"
+my_tuple (0.693, 0.414, 3.142) my_tuple
+(0.693, 1.414, 3.142)
+"True"
+is_vegetable
+True False
+True False
+True False
+int
+is_dessert
+False True
+True
+False
+True
+bool("False") True
+True 1.0.False 0.0.
+True "True" "False"
+True 1 False 0
+"c" "c" "i" "o"
+"i" "o" False
+"d"
+"c" False
+age < 12 "if" True False
+-10 < 0 num 25 25 < 100 num 25 + 50
+75
+positive_num 0
+if x >= 15 else x
+15
+40 > 30 if y = 40 - 10 = 30
+if-else x' y
+30 105
+2500 < 3000 True 2.5 > 1.0 True
+3000 > 3000 False False False and False False
+hrs_to_close
+False and True False
+(8 < 10) and (21 > 20) True and True True if
+z 5
+(21 < 30) or False True or False True
+(9%2==0 and 10%2 ==1) (False and False) False (9%2 == 1 and 10%2
+== 0) (True and True) True False or True True if
+not(13 < 10) not(False) True
+not(18 > 15 and 18 < 20) not(True and True) not(True) False
+65 > 60 True is_turn not(False) True
+and
+and
+and
+x + (3*y) - 5. 8 + (3*9) - 5 = 30
+(8+3) * (9-5) = 11 * 4 = 44
+elif condition_2 condition_1 False Body 2 condition_2
+True
+x > 44 42 > 44 False x < 50 42 < 50 True y = 0 + 5
+if elif
+x < 0 Body 1 x == 0 Body 2
+elif
+if if-elif if True
+if-elif elif
+hour < 8 and hour < 12 False hour < 13 True
+elif elif
+-1 < 0 and -2 < 0 True y =
+10
+price < 9.99 price < 19.99
+price >= 9.99
+price >= 19.99
+leaf_count == 3 False else '
+num_dancers else num_dancers
+if num_dancers
+256 == 513 False 256 < 513 True elif Body 2
+513 >= 512 True Body 3
+else else if else
+if
+response "even" x response
+"odd" x
+100 < 100 False result x - offset = 100 - 10 = 90
+min_num min_num = y min_num = x if x < y
+else y
+(fee + 10) if hours > 12 else 2
+g =1 2 3 5 8 13
+g = 21 False
+f g g
+1 2 3 5 8 13 1 1
+2 3 5 8 13
+n = 4 3 2 1
+n = 0 n 0
+value of n after the loop is 0
+n 4 n
+str_var count
+count's 8
+count 0 count 0
+c
+10 22 10 13 16 19
+22
+5 1
+range() -1 -2
+-1
+start
+end
+range() start
+end 1
+start end
+i j (i, j)
+(1, 1), (1, 2), (1, 3), (1, 4),
+(2, 1), (2, 2), (2, 3),
+(3, 1), (3, 2),
+(4, 1)
+i i = 1 2 3 4 i 1 4
+i <= 4 j j
+4
+0 1 2
+j = 0 1 2 3 i
+i = 0 1 2 3 *
+4 = 12
+i i 0 3
+0 3
+H
+e
+l
+l
+o
+print break
+i = 15 (i%3 == 0 and i%5 == 0)
+2 3 2 3 4 6
+8 8 i
+9
+6
+3
+0
+i 16 while i = 16 8 4 2
+exp exp = 4
+else 16 is
+2 to the 4
+i 7 else
+break
+else
+5
+5 Not all numbers are less than 5.
+print() offset_num
+print() input()
+float() input()
+print()
+def water_plant():
+"User info:" print_phone_num()
+calc_tax
+calc_distance()
+park_greet()
+park_greet()
+extra_lot()
+print("Open ...")
+park_greet() park_greet() print("Welcome ...")
+for print_book_club() print_conf()
+print_book_club() print_conf()
+print_conf() print_book_club()
+print_book_club()
+num num_sq
+num num_sq print_square()
+num print_double()
+print_square()
+out_str print_time()
+out_str print_greeting() print_greeting()
+print_time() out_str out_str print_time()
+update_hour() tmp tmp
+update_hour()
+new_hour update_hour()
+new_hour
+global new_hour
+update_hour()
+username print_welcome() name print_welcome()
+username
+name print_welcome() username
+name print_welcome()
+name print_welcome()
+p1_x x1
+calc_distance()
+y1 calc_distance() p1_y
+3 x2
+wknd_temps temps
+convert_temps() unit
+unit convert_temps()
+calc_mpg() mpg return
+return
+calc_sqft() sqft return sqft
+return None
+num == 3 True return "dk"
+inc_volume(9,10) return level 9 level += 1
+bill += tax(bill) + auto_tip(bill) bill += 6.0 + 20.0 bill = 100.0 +
+6.0 + 20.0
+val2 = sq(offset(5)) val2 = sq(3)
+"Hiya" msg "Ash" name
+"Welcome"
+"Hi" "Bea" count=1
+name "Friend" count 1 msg
+msg "Greetings" name count
+"Greetings Friend"
+msg="Hello" name="Friend" count=0
+for count=0
+def
+area.cube(5) 6 * 5**2 6 * 25 150
+circle()
+area.circle()
+51
+hello()
+"Defining sphere function"
+__name__
+__name__ "__main__"
+__name__ "test"
+#0000FF
+#FFFF00
+darken BLUE colors
+calendar MONDAY 0 SUNDAY 6
+tkinter
+MoviePy Pillow
+Arrow
+datetime
+hex_to_name("#daa520")
+"goldenrod"
+a b "aaa" < "aab"
+"a" "aa" "aa" "a"
+"aa" < "a"
+"aples" "apples"
+"aples" "apples" "aples" "apples"
+"aBbA".lower() "abba"
+"aBbA".upper() "ABBA"
+upper() "a" "A" "a".upper() == "A"
+"e"
+"u"
+"e" "chance"
+a_string[2:4] "ll"
+[-3:-1] "oo"
+greeting[3:]
+"Leila"
+TypeError: 'str'
+object does not support item assignment
+"o" str
+"o"
+"a" "an umbrella" "a" "an umbrella" True
+"ab" "arbitrary" False
+"" "string" True
+for "string"
+"abca" "a"
+"a" "abca" 2
+"cab"
+"CAB"
+"aaa".count("a") 3 "a" "aaa"
+"b" "weather" "weather".count("b") 0
+"aa" "aaa"
+find()
+"a"
+"c" "banana" find() -1
+"banana" "b" -1
+index()
+"o" "school"
+"ooo" "ooo" index()
+ValueError
+sentence.index(" ")
+"This"
+"Ana" "Hello
+Ana!"
+"{}:{}" "One:1"
+format()
+"Bengio" name
+"Hey Bengio!"
+KeyError: 'name'
+"Hi"
+"Hi Jess"
+name len(formatted_name) 12
+greeting
+formatted_greeting " Hello"
+.3
+{:1>3d}
+{:+d}
+"1*2*3*" '*' ["1", "2", "3"]
+"a year includes 12 months"
+["a", "year", "includes", "12", "months"]
+['This', 'is', 'a', 'test']
+elements
+'A,beautiful,day,for,learning'
+"sss".join(["1","2"]) "1sss2"
+"12"
+append()
+pop() remove() pop()
+remove()
+for
+len(my_list) for
+i 4
+for "end="
+"flash"
+"flask"
+sort() sort()
+reverse()
+"go" board_games "go" board_games
+min()
+"Austin City Limits"
+12.4
+list2 my_list list2 my_list
+my_list list2
+sum()
+matA matA
+matA [7, 4, 5]
+for for
+for
+for
+i+2 a_list b_list
+for //
+my_list
+for
+new_list
+"Sunday", "Monday", "Tuesday"
+1, 2, 3
+days "Sunday" 1
+dict
+"a" "A" "a" "A"
+{"one": 1} "one": 1
+my_dict "a": 1 "b": 2
+dict()
+my_dict "a": 1
+dict()
+"Jaya" "Student"
+None
+get()
+keys() dict_keys
+1 2 3 numbers.values()
+dict_values([1, 2, 3])
+"one", "two", "three" list()
+del
+update() "Kabob"
+"Sushi": "$16"
+"apple" fruit_count.keys()
+"orange" 5 True
+values()
+"apple" "orange" "banana"
+4 10 2
+numbers
+names
+Change venue
+Cat
+pet_1 Cat Cat() pet_2
+breed in __init__() name age
+CapWords
+room_1 room_3 Rectangle()
+__init__()
+room_1 area() self
+__init__()
+__init__() self
+order_id __init__() cup_size
+order_1.cup_size order_3.cup_size. order_1.cup_size 8
+order_3.cup_size 16
+order_1 order_2 order_3 CoffeeOrder.loc loc
+Caffeine Cafe
+__init__()
+cls_id
+bp
+self __init__() self
+__init__()
+__init__() __init__() patient_1 patient_2
+order_1 change()
+order_1.with_sugar True
+change()
+print_order()
+__add__()
+__init__() __str__()
+Engineer
+acct_a self
+acct_b other
+__sub__() x y
+Pair
+__lt__() __gt__() __eq__()
+__le__() __le__()
+__gt__() True False
+Level XP
+name
+game_char game_char
+game_char game_char
+'Ranger' game_char
+n n - 1
+1
+rec_fact() n == 0 1! 0! = 1
+n == 0 n 0
+n == 0 0! = 1
+n == 1 n 0 0
+n < 0 -1
+0
+0
+"madam"
+len(word) == 0
+len(word) <= 1
+strip()
+strip('m') "madamm" "ada"
+list_num other_list
+fib(9) fib(8) fib(7) fib(9)= fib(8) + fib(7) = 21 + 13 = 34
+5 * 3 = 15 5 * 7 = 35 5 15 35
+gcd(24, 30) 30 - 24 = 6 gcd(24, 6)
+gcd(18, 6) gcd(12, 6) gcd (6,6)
+gcd(13, 23) 23 - 13 = 10 gcd(13, 10)
+gcd(10, 3) gcd(7, 3) gcd (4,3) gcd(3,2) gcd(2,1) gcd(1,1)
+mid = (4 + 7) // 2 = 11 // 2 = 5
+mid 3 mid 5 mid 4
+16
+mid (0 + 13) // 2 = 6 mid (7 + 13) // 2 = 10
+mid (11 + 13) // 2 = 12 86 < 99 mid 11
+Doughnut Pastry
+Kitchen Freezer
+Goalkeeper Player
+CarryOn Luggage CarryOn' class
+CarryOn(Luggage): CarryOn
+SubClass func_1() SuperClass func_2()
+SubClass
+SuperClass SuperClass' func_1()
+SubClass func_2()
+dev_1 Employee dev_1 Employee__init__()
+dev_1.e_id 2
+SubClass' __init__() SuperClass' __init__()
+dc_1 feat_1 feat_2 SuperClass
+dev_display() Developer dev_1' lang_xp
+dev_display() Developer emp_1 Developer emp_1
+dev_display()
+Employee
+Developer'
+class ContractTax(Tax):
+Square Rectangle Rectangle __init__()
+super()__init__(4) __init__() Rectangle' Polygon
+num_sides 4
+5
+Rectangle' __init__() Polygon' __init__() num_sides=4
+print_type() Polygon
+Class A Class B Class C
+Developer SalesRep Developer
+SalesRep
+B(2) B(2 b_attr 0 a_attr 2
+c_inst C' c_attr A a_attr
+D B d_inst b_attr B A d_inst d_attr
+1 C' __init__() a_attr
+C' __init__() c_attr c_attr
+20
+2 b_attr B' __init__()
+eat() Pitcher VenusFlyTrap
+eat() Pitcher' VenusFlyTrap'
+"Mixin"
+class Plant:
+def photosynth(self):
+print("Photosynthesizing")
+class CarnivMixin:
+def eat(self):
+print("Eating")
+class Rose(Plant):
+pass
+class Pitcher(Plant, CarnivMixin):
+pass
+class VenusFlyTrap(Plant, CarnivMixin)
+pass
+<_io.TextIOWrapper name='newfile.txt' mode='r' encoding='cp1252'>
+read() fileobj file_str
+readlines() fileobj file_lines ['Hello world!\n',
+'How are you?\n']
+readline() readline()
+"Hello world!" readline()
+'\n'
+open()
+'a'
+'w'
+close()
+close()
+\n readlines()
+'268'
+csv_read 'Title, Author, Pages'
+"3-4" int() ValueError
+.txt .text
+len(parts) 1, parts[1]
+int() ValueError "one"
+ValueError
+"M" Pizza
+PizzaError
+m n np.zeros((m,n))
+ndarray ndarray
+<'numpy.ndarray'>
+2 * arr
+[[2 4]
+[6 8]]
+np.array([[1, 2], [1, 2], [1, 2]]) ndarray T
+m n n m
+arr1 arr2
+[[1 0]
+[0 4]]
+head()
+unique()
+describe()
+a
+20
+2 A c
+df.loc[0:2, "A"]
+loc[1] 1
+iloc[:, 0]
+isnull() Null
+fillna() Null
+sum()
+Null
+plt.scatter(x, y) x
+y
+values
+print()
+read()
+readline()
+readlines()
+open()
+write()
